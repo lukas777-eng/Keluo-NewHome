@@ -5,7 +5,7 @@
     --menu-speed: 0.75s;
   }
  html {
-    scroll-behavior: auto;
+    scroll-behavior: smooth;
     margin: 0;
     z-index: 1;
     overflow-x: hidden;
@@ -37,16 +37,25 @@ body {
     z-index: 3;
   }
 
-  .p-follow {
-    /* position: absolute; */
+  .link-header {
     color: #EAEAEA;
-    margin: 0.5rem 0 0 1.5rem;
-    padding: 1.2rem;
     font-size: 10px;
+    position: relative;
+    top: 1rem;
+    left: 3rem;
+  }
+
+  .centerTiktok {
+    color: #EAEAEA;
+    font-size: 10px;
+    position: relative;
+    left: 4rem;
+    top: 1rem;
   }
   
-  /* MENU STYLES */
-  .menu-wrap {
+ 
+/* MENU STYLES */
+.menu-wrap {
     position: relative;
     top: -50px;
     left: 15rem;
@@ -67,12 +76,13 @@ body {
   .menu-wrap .hamburger {
     position: relative;
     top: 0;
-    bottom: 200px;
     left: 0;
+    bottom: 200px;
     z-index: 2;
-    width: 40px;
-    height: 60px;
+    width: 30px;
+    height: 30px;
     padding: 1rem;
+    /* background: var(--primary-color); */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -87,7 +97,7 @@ body {
     background: #fff;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     transition: all 0.4s ease;
   }
   
@@ -95,7 +105,7 @@ body {
   .menu-wrap .hamburger > div::before,
   .menu-wrap .hamburger > div::after {
     content: '';
-    position: relative;
+    position: absolute;
     z-index: 5;
     top: -10px;
     width: 100%;
@@ -110,7 +120,7 @@ body {
   
   /* Toggler Animation */
   .menu-wrap .toggler:checked + .hamburger > div {
-    transform: rotate(135deg);
+    transform: rotate(90deg);
   }
   
   /* Turns Lines Into X */
@@ -154,10 +164,9 @@ body {
   }
   
   .menu-wrap .menu > div {
-    background-color: #818181;
-    margin: 0 2rem 0 0;
-    padding: 0;
-    width: 110vw;
+    background: var(--overlay-color);
+    border-radius: 50%;
+    width: 200vw;
     height: 200vw;
     display: flex;
     flex: none;
@@ -177,7 +186,7 @@ body {
   
   .menu-wrap .menu > div > div > ul > li {
     list-style: none;
-    color: rgb(0, 0, 0);
+    color: #fff;
     font-size: 1.5rem;
     padding: 1rem;
   }
@@ -729,7 +738,7 @@ bottom: 550px;
     left: 10px;
     top: 7px;
     font-size: 10px;
-    color: #666666;
+    color: #CC2A4D;
 
     -webkit-transition: all .5s; /* For Safari 3.0 to 6.0 */
     -o-transition: all .5s;
@@ -934,7 +943,7 @@ input::placeholder {
     background-color: #fff;
     height: 20rem;
     width: 16rem;
-    margin-left: 1rem;
+    margin-left: 2rem;
     border: 1px solid #000000;
     bottom: 5rem;
 }
@@ -965,17 +974,17 @@ input::placeholder {
 }
 
 .keluo-team-title {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     font-weight: 100;
     margin: 0;
-    margin-left: 5rem;
+    margin-left: 2.5rem;
 
 
 }
 
 .keluoTeamParagraph {
     font-size: 7px;
-    margin-left: 4rem;
+    margin-left: 2.5rem;
 
 }
 
@@ -1055,7 +1064,16 @@ input::placeholder {
     height: 150px;
     border: 1px solid black;
     margin: 0 1rem;
-    background-color: #EAE3D8;
+    background-color: #DBDCD2;
+    opacity: 0.5;
+}
+
+#active0 {
+    opacity: 1 !important;
+}
+
+#active-1 {
+    display: none;
 }
 
 .teamGrid {
@@ -1126,11 +1144,7 @@ input::placeholder {
 
 .loDicenEllosp {
     font-size: 15px;
-    margin: 0 0 0 40px;
-    /* position: relative;
-    top: 70px;
-    left: 50px;
-    margin-top: 10px; */
+    margin: -10px 0 0 40px;
 }
 
 .noLoDecimosNosotros {
@@ -1138,9 +1152,20 @@ input::placeholder {
     margin-left: 30px;
 }
 
+.belmonte {
+    width: 40px;
+    height: 30px;
+}
+
+.isabella {
+    width: 100px;
+    height: 50px;
+    object-fit: contain;
+}
+
 .resenia {
     font-size: 7px;
-    margin-top: 30px;
+    margin-top: 1px;
     margin-left: 10px;
 }
 
@@ -1251,7 +1276,7 @@ input::placeholder {
 .logo-arrow {
     width: 3rem;
     height: 3rem;
-    margin: 1rem 0 0 3rem;
+    margin: 1.5rem 0 0 3rem;
 }
 
 .carrousel {

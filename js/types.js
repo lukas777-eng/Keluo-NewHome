@@ -1,7 +1,7 @@
 // import Typed from 'typed.js';
 
  const typed = new Typed('.typed', {
-    strings: ['existes', 'existes', 'existes'],
+    strings: ['Si no estas en internet no existes', 'Si no estas en internet no existes'],
     stringsElement: null,
 
     /**

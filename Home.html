@@ -15,8 +15,10 @@
     <title>Conocenos</title>
   </head>
   <body>
-    <header class="header">
-      <p class="p-follow" id="rrss">follow us on Instagram @KeluoTech</p>
+    <header class="header" id="top">
+      <a href="https://www.instagram.com/keluo.tech/" id="instagram" class="link-header"><p>FOLLOW US ON INSTAGRAM @KELUO.TECH</p></a>
+      <a href="https://www.linkedin.com/company/keluo-tech-consulting/" id="linkedin" class="link-header"><p>FOLLOW US ON LINKEDIN Keluo Tech Consulting</p></a>
+      <a href="https://www.tiktok.com/@keluotech" id="tiktok" class="centerTiktok"><p>FOLLOW US ON TIKTOK @KELUOTECH</p></a>
     </header>
     <div>
       <div class="menu-wrap">
@@ -42,7 +44,7 @@
       <a href="https://www.instagram.com/keluo.tech/" class="button-fixed" id="instaLink">
            <img src="./assets/iconos redes-20220823T211025Z-001/iconos redes/ig.png" class="icon-fixed">
       </a>
-      <a href="https://www.instagram.com/keluo.tech/" class="button-fixed" id="tiktokLink">
+      <a href="https://www.tiktok.com/@keluotech" class="button-fixed" id="tiktokLink">
           <img src="./assets/iconos redes-20220823T211025Z-001/iconos redes/tiktok.png" class="icon-fixed">
       </a>
       <a href="https://www.linkedin.com/company/keluo-tech-consulting/" class="button-fixed" id="linkedinLink">
@@ -56,7 +58,7 @@
             <hr class="line-up-keluoHome">
             <hr class="line-right-keluoHome">
             <img class="keluo_main" src="./assets/A.png"></img>
-            <p class="p-downKeluo">Si no estas en internet no <span class="typed"></span></p>
+            <p class="p-downKeluo"><span class="typed"></span></p>
             <hr class="line-right">
             <hr class="line-right2">
             <img class="image_main" src="./assets/hero_img.png"></img>
@@ -91,8 +93,8 @@
             </div>
             <div class="square" id="squareColor2" onClick="MyColor2()">
               <img class="icon2" src="./assets/iconos de sevicios-20220817T181058Z-001/iconos de sevicios/icon_marketing.png"></img>
-              <p class="pSquare1t">Software a medida</p>
-              <p class="pSquare2">¿Tienes un sueño? Te lo programamos</p>
+              <p class="pSquare1t">Marketing</p>
+              <p class="pSquare2">Seremos tus ojos y tu voz en el mercado</p>
               <button class="btn-square">Saber más</button>
             </div>             
             <div class="square" id="squareColor3" onClick="MyColor3()">
@@ -204,7 +206,7 @@
     </section>
      <div class="gridTeam">
        <div class="columnteamTitle">
-        <h2 class="keluo-team-title">Keluo Team</h2>
+        <h2 class="keluo-team-title">KELUO TEAM</h2>
         <p class="keluoTeamParagraph">El equipo que te dara soporte en todo momento
          siempre buscando el desarrollo de las nuevas
          tendencias tanto en marketing como en diseño</p>
@@ -222,7 +224,7 @@
 
       <!-- Images -->
       <article class="images">
-        <div class="image">
+        <div class="image" id="active-1">
           <div class="teamGrid">
             <img src="./assets/Keluo Team-20220823T190221Z-001/Keluo Team/1644582254149.jfif" class="peopleTeam">
             <div class="nameJob">
@@ -238,7 +240,23 @@
             </p>
             <img src="./assets/miscelanea.png" class="miscelanea">
         </div>
-        <div class="image">
+        <div class="image" id="active0">
+          <div class="teamGrid">
+            <img src="./assets/Keluo Team-20220823T190221Z-001/Keluo Team/1644582254149.jfif" class="peopleTeam">
+            <div class="nameJob">
+              <p class="teamName">Safae Idriouich</p>
+              <p class="teamJob">President & Founder</p>
+            </div>
+          </div>
+          <p class="presentacionTeam">
+            “ Ciencia y marketing es posible.
+            Estaré a tu lado en todo momento
+            para que el proyecto llegue a límites
+            inalcanzables. ”
+            </p>
+            <img src="./assets/miscelanea.png" class="miscelanea">
+        </div>
+        <div class="image" id="active1">
           <div class="teamGrid">
             <img src="./assets/Keluo Team-20220823T190221Z-001/Keluo Team/1600943333125.jfif" class="peopleTeam">
             <div class="nameJob">
@@ -256,7 +274,7 @@
             <img src="./assets/miscelanea.png" class="miscelanea">
 
         </div>
-        <div class="image">
+        <div class="image" id="active2">
           <div class="teamGrid">
             <img src="./assets/Keluo Team-20220823T190221Z-001/Keluo Team/1568820195195.jfif" class="peopleTeam">
             <div class="nameJob">
@@ -273,7 +291,7 @@
             <img src="./assets/miscelanea.png" class="miscelanea">
 
         </div>
-        <div class="image">
+        <div class="image" id="active3">
           <div class="teamGrid">
             <img src="./assets/Keluo Team-20220823T190221Z-001/Keluo Team/1585679137726.jfif" class="peopleTeam">
             <div class="nameJob">
@@ -290,7 +308,7 @@
             <img src="./assets/miscelanea.png" class="miscelanea">
 
         </div>
-        <div class="image">
+        <div class="image" id="active4">
           <div class="teamGrid">
             <img src="./assets/Keluo Team-20220823T190221Z-001/Keluo Team/foto perfil.png" class="peopleTeam">
             <div class="nameJob">
@@ -308,11 +326,11 @@
             <img src="./assets/miscelanea.png" class="miscelanea">
 
         </div>
-        <div class="image">
+        <div class="image" id="active5">
           <div class="teamGrid">
             <img src="./assets/Keluo Team-20220823T190221Z-001/Keluo Team/foto perfil.png" class="peopleTeam">
             <div class="nameJob">
-              <p class="teamName">Lucas Tomas Casco</p>
+              <p class="teamName">Lucas Casco</p>
               <p class="teamJob">Fullstack Developer</p>
             </div>
           </div>
@@ -337,17 +355,19 @@
     </section>
     <section class="loDicenEllos">
       <hr class="line-toplogo">
-      <img class="top-bottom" src="./assets/top_boton.png">
+      <a href="#top"><img class="top-bottom" src="./assets/top_boton.png"></a>
       <!-- <p class="comillas">''</p> -->
       <div class="container">
         <div class="mySlides">
           <p class="loDicenEllosp">LO DICEN ELLOS</p>
-          <p class="noLoDecimosNosotros">no lo decimos nosotros sino nuestros clientes</p>
+          <p class="noLoDecimosNosotros">No lo decimos nosotros, sino nuestros clientes</p>
+          <img class="belmonte" src="./assets/logo-belmonte-assessors-new.png">
           <p class="resenia">Es una agencia muy cercana y que adapta los servicios y las estrategias a cada cliente. Se han comprometido con el proyecto y han cumplido con los plazos, aconsejándonos en todo momento lo que sería mejor para nuestra empresa.</p>
         </div>
         <div class="mySlides">
           <p class="loDicenEllosp">LO DICEN ELLOS</p>
-          <p class="noLoDecimosNosotros">no lo decimos nosotros sino nuestros clientes</p>
+          <p class="noLoDecimosNosotros">No lo decimos nosotros, sino nuestros clientes</p>
+          <img class="isabella" src="./assets/PASTELES_ISABELLA (1).png">
           <p class="resenia">Destacar el trato tan cercano recibido. Siempre dispuestos a ayudar en todo momento. La estrategia fue un éxito.</p>
         </div>
         <a class="previ" onclick="plusSlides(-1)">&#10094;</a>

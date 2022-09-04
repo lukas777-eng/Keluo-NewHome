@@ -11,7 +11,23 @@ nextBtn.addEventListener("click", nextSlide)
 let index = 0
 
 // Set interval
-let interval = setInterval(startInterval, 3000)
+let interval = setInterval(startInterval, 6000);
+let intervalOpacity = setInterval(opa, 6000);
+
+setTimeout(active1opacity, 4900)
+
+function active1opacity() {
+    document.querySelector('#active0').setAttribute('style', 'opacity:0.5 !important')
+    // console.log(document.querySelector('#active0').setAttribute('style', 'opacity:0.5 !important')
+    // )
+}
+
+function opa(){
+    console.log(index);
+    document.querySelector(`#active${index}`).setAttribute('style', 'opacity:1')
+    document.querySelector(`#active${index - 1}`).setAttribute('style', 'opacity:0.5')
+    console.log(index - 1);
+}
 
 function startInterval() {
     index++
@@ -24,9 +40,9 @@ function resetInterval() {
 }
 
 function moveCarousel() {
-    // Last image
+    // Last image set index === 0
     if (index > imagesCollection.length -1) {
-        index = 0
+        index = -1
     } else if (index < 0) {
         index = imagesCollection.length -1
     }
