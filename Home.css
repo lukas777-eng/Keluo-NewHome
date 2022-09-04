@@ -1106,6 +1106,81 @@ input::placeholder {
     width: 120px;
     margin: 0 0 0 5px;
 }
+.slidemenu {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.slidemenu label {
+    height:35px;
+    width:35px;
+    display:block;
+    margin:0 auto 10px
+}
+
+.slidemenu .slider {
+    background:#ccc;
+    height:5px;
+    border-radius:5px;
+    clear:both
+}
+
+.slidemenu .slider .bar {
+    background:#333;
+    height:5px;
+    width:20%;
+    border-radius:5px;
+    margin-left:0;
+    -webkit-transition:all .15s ease-in-out;
+    -moz-transition:all .15s ease-in-out;
+    transition:all .15s ease-in-out
+}
+
+.radio {
+    display: none;
+}
+
+.slidemenu .menu-one:checked ~ .slider .bar {
+    margin-left:0
+}
+
+.slidemenu .menu-two:checked ~ .slider .bar {
+    margin-left:20%
+}
+
+.slidemenu .menu-three:checked ~ .slider .bar {
+    margin-left:40%
+}
+
+.slidemenu .menu-four:checked ~ .slider .bar {
+    margin-left:60%
+}
+
+.slidemenu .menu-five:checked ~ .slider .bar {
+    margin-left:80%
+}
+
+.slidemenu .menu-one:checked + label {
+    opacity:1
+}
+
+.slidemenu .menu-two:checked + label {
+    opacity:1
+}
+
+.slidemenu .menu-three:checked + label {
+    opacity:1
+}
+
+.slidemenu .menu-four:checked + label {
+    opacity:1
+}
+
+.slidemenu .menu-five:checked + label {
+    opacity:1
+}
+
+
 /* Controls */
 .controls {
     height: 25px;
