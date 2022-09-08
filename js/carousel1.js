@@ -1,11 +1,11 @@
 // Grab DOM elements
 const images = document.querySelector(".images")
 const imagesCollection = document.querySelectorAll(".image")
-const prevBtn = document.querySelector(".prev")
-const nextBtn = document.querySelector(".next")
+// const prevBtn = document.querySelector(".prev")
+// const nextBtn = document.querySelector(".next")
 
-prevBtn.addEventListener("click", prevSlide)
-nextBtn.addEventListener("click", nextSlide)
+// prevBtn.addEventListener("click", prevSlide)
+// nextBtn.addEventListener("click", nextSlide)
 
 // Utility vars
 let index = 0
@@ -20,8 +20,9 @@ function active1opacity() {
     document.querySelector('#active0').setAttribute('style', 'opacity:0.5 !important')
     // console.log(document.querySelector('#active0').setAttribute('style', 'opacity:0.5 !important')
     // )
+    document.querySelector(`#radio${index}`).checked
 }
-
+z``
 function opa(){
     console.log(index);
     document.querySelector(`#active${index}`).setAttribute('style', 'opacity:1')
@@ -51,16 +52,16 @@ function moveCarousel() {
 }
 
 // Nav buttons
-function prevSlide() {
-    index--
-    //resetInterval()
-    clearInterval(interval) 
-    moveCarousel()
-}
+// function prevSlide() {
+//     index--
+//     //resetInterval()
+//     clearInterval(interval) 
+//     moveCarousel()
+// }
 
-function nextSlide() {
-    index++
-    //resetInterval()
-    clearInterval(interval) 
-    moveCarousel()
-}
+// function nextSlide() {
+//     index++
+//     //resetInterval()
+//     clearInterval(interval) 
+//     moveCarousel()
+// }

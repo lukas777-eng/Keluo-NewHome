@@ -43,6 +43,7 @@ body {
     position: relative;
     top: 1rem;
     left: 3rem;
+    text-decoration: none;
   }
 
   .centerTiktok {
@@ -51,6 +52,7 @@ body {
     position: relative;
     left: 4rem;
     top: 1rem;
+    text-decoration: none;
   }
   
  
@@ -489,11 +491,11 @@ bottom: 550px;
 
 .pSquare1t {
     font-size: 12px;
-    margin-bottom: -7px;
+    margin-bottom: -1px;
 }
 
 .pSquare2 {
-    font-size: 5.9px;
+    font-size: 5.7px;
     margin-bottom: 10px;
 }
 
@@ -1040,6 +1042,26 @@ input::placeholder {
     /* border: 1px solid black; */
 }
 
+.oteam {
+    color: #DBDCD2;
+    font-weight: 900;
+    font-size: 50px;
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+    opacity: 0.3;
+}
+
+.oteam2 {
+    color: #DBDCD2;
+    font-weight: 900;
+    font-size: 50px;
+    position: relative;
+    bottom: 130px;
+    left: 30px;
+    opacity: 0.3;
+
+}
 
 .carousel {
     width: 320px;
@@ -1196,12 +1218,12 @@ input::placeholder {
 }
 
 .container{
-    width: 200px;
+    width: 190px;
     height: 100px;
     position: relative;
     bottom: 4rem;
     padding: 20px;
-    left: 2rem;
+    left: 2.5rem;
     z-index: 1;
     border: 1px solid #000000;
 }
@@ -1241,7 +1263,7 @@ input::placeholder {
 .resenia {
     font-size: 7px;
     margin-top: 1px;
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 .mySlides{
@@ -1266,17 +1288,19 @@ input::placeholder {
     font-weight: bold;
     font-size: 10px;
     transition: 0.6 ease;
-    border-radius: 0 3px 3px 0;
+    /* border-radius: 0 3px 3px 0; */
     user-select: none;
     border:  solid #CC2A4D 2px;
+    background-color: #ffffff;
 }
 
 .nexti2 {
     position: relative;
     left: 100px;
-    border-radius: 3px 0 0 3px;
+    /* border-radius: 3px 0 0 3px; */
     margin-right: -0.5rem;
-
+    background-color: #CC2A4D;
+    color: #ffffff;
 }
 
 .quadrate2{
@@ -1294,26 +1318,29 @@ input::placeholder {
 .nexti{
     cursor: pointer;
     position: relative;
-    bottom: 70px;
+    bottom: 80px;
     right: 20px;
     width: auto;
     margin-top: -22px;
     margin-left: -0.5rem;
     padding: 5px;
     color: red;
+    background-color: #ffffff;
     font-weight: bold;
     font-size: 10px;
     transition: 0.6 ease;
-    border-radius: 0 3px 3px 0;
+    /* border-radius: 0 3px 3px 0; */
     user-select: none;
-    border:  solid #CC2A4D 2px;
+    border:  solid #CC2A4D 1px;
 }
 
 .nexti {
     position: relative;
-    left: 200px;
-    border-radius: 3px 0 0 3px;
+    left: 190px;
+    /* border-radius: 3px 0 0 3px; */
     margin-right: -0.5rem;
+    background-color: #CC2A4D;
+    color: #ffffff;
 
 }
 
@@ -1339,6 +1366,14 @@ input::placeholder {
 
 .active, .quadrate:hover{
     background-color: #fff;
+}
+
+.comillas {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    bottom: 50px;
+    right: 25px;
 }
 
 .team {
@@ -1434,7 +1469,7 @@ input::placeholder {
     position: relative;
     width: 1.5rem;
     height: 1.5rem;
-    left: 18rem;
+    left: 17.7rem;
     bottom: 2rem;
 }
 
@@ -1670,13 +1705,485 @@ input::placeholder {
     bottom: 95px;
 }
 
+@media only screen and (min-width: 375px) and (max-width: 430px) {
+    .link-header {
+        left: 5rem;
+    }
+
+    .centerTiktok {
+        left: 6rem;
+    }
+
+    .menu-wrap {
+        left: 19rem;
+    }
+
+    .image_main {
+        bottom: 1361px;
+        height: 101vh;
+    }
+
+    .line-right {
+        height: 700px;
+        top: 60px;
+        right: 170px;
+    }
+
+    .line-right2 {
+        bottom: 650px;
+        height: 700px;
+        left: 170px;
+    }
+
+    .keluo_main {
+        left: 7rem;
+        top: 20rem;
+    }
+
+    .line-up-keluoHome {
+        left: 17px;
+        top: 330px;
+    }
+
+    .line-right-keluoHome {
+        left: 120px;
+        top: 320px;
+    }
+
+    .p-downKeluo {
+        left: 7rem;
+        top: 23rem;
+    }
+
+    .fixed {
+        top: 27rem;
+        margin-left: 3rem;
+    }
+
+    .somosSections {
+        bottom: 2400px;
+    }
+    
+    .line-right-section {
+        left: 170px;
+    }
+
+    .line-left-section {
+        right: 170px;
+        bottom: 1500px;
+        height: 900px;
+    }
+
+    .trefotos {
+        bottom: 2375px;
+        left: 1rem;
+        }
+
+        .fourSquare {
+            bottom: 2300px;
+        }
+
+        .services-p {
+            bottom: 2320px;
+            left: 50px;
+        }
+
+        .services-p2 {
+            bottom: 2150px;
+            right: 120px;;
+        }
+
+        .selloService {
+            margin-left: 8.7rem;
+        }
+
+        .newsletter {
+            margin-top: -3500px;
+        }
+
+        .selloTransparent {
+            margin-left: 20rem;
+        }
+
+        .boxNews {
+            left: 3rem;
+        }
+
+        .triangulo {
+            right: 73px;
+        }
+        
+        .trianguloGreen {
+            left: 87px;
+        }
+
+        .line-above-red {
+            width: 18.5rem;
+        }
+
+        .line-PortfolioH {
+            width: 23rem;
+            margin-right: -50px;
+        }
+
+        .line-PortfolioV-little {
+            margin-right: 20rem;
+        }
+
+        .cuadrado {
+            margin-left: 272px;
+        }
+
+        .bgGreen4 {
+            right: 8rem;
+            width: 13rem;
+        }
+
+        .team-line {
+            width: 14rem;
+        }
+
+        .team-line-vertical {
+            right: 112px;
+        }
+
+        .team-line-little {
+            right: 107px;
+        }
+
+        .carousel {
+            width: 350px;
+        }
+
+        .top-bottom {
+            left: 19.5rem;
+            bottom: 3rem;
+        }
+
+        .line-toplogo {
+            top: 75px;
+        }
+
+        .container {
+            left: 4rem;
+        }
+
+        .comillas {
+            width: 50px;
+            height: 50px;
+            bottom: 30px;
+        }
+
+        .line-down-beige {
+            width: 22rem;
+            right: 42px;
+        }
+
+        .triangle-down {
+            margin-left: 10rem;
+        }
+
+        .background-logicol {
+            margin-left: 4rem;
+        } 
+
+}
+
+@media only screen and (min-width: 414px) and (max-width:480px) {
+    .link-header {
+        left: 6rem;
+    }
+
+    .centerTiktok {
+        left: 7rem;
+    }
+
+    .line-right {
+        height: 800px;
+        top: 60px;
+        right: 190px;
+    }
+
+    .line-right2 {
+        bottom: 800px;
+        height: 800px;
+        left: 190px;
+    }
+
+    .menu-wrap {
+        left: 20rem;
+    }
+
+    .image_main {
+        bottom: 1575px;
+        height: 101vh;
+    }
+
+    .keluo_main {
+        left: 8rem;
+        top: 20rem;
+    }
+
+    .line-up-keluoHome {
+        left: 17px;
+        top: 330px;
+    }
+
+    .line-right-keluoHome {
+        left: 120px;
+        top: 320px;
+    }
+
+    .p-downKeluo {
+        left: 7.5rem;
+        top: 23rem;
+    }
+
+    .fixed {
+        top: 30rem;
+        margin-left: 4rem;
+    }
+
+    .line-right-section {
+        left: 190px;
+        bottom: 1000px;
+    }
+
+    .line-left-section {
+        right: 190px;
+        bottom: 1700px;
+        height: 700px;
+    }
+
+    .somosSections {
+        bottom: 2450px;
+    }
+
+    .trefotos {
+        bottom: 2450px;
+    }
+
+    .fourSquare {
+        bottom: 2500px;
+    }
+
+    .unoimg {
+        bottom: 4rem;
+        left: 2rem;
+        width: 6.5rem;
+    }
+
+    .dosimg {
+        width: 6.5rem;
+    }
+
+    .treimg {
+        width: 6.5rem;
+    }
+
+    .rectangulo {
+        width: 350px;
+    }
+
+    .selloService {
+        margin-left: 9.7rem;
+    }
+
+     .services-p {
+            bottom: 2520px;
+            left: 50px;
+        }
+
+        .services-p2 {
+            bottom: 2350px;
+            right: 80px;;
+        }
+        .newsletter {
+            margin-top: -3700px;
+        }
+
+        .selloTransparent {
+            margin-left: 22rem;
+        }
+
+        .line-above-red {
+            width: 22.8rem;
+
+        }
+
+        .line-right-red {
+            left: 180px;
+        }
+
+        .cuadrado {
+            margin-left: 340px;
+        }
+
+        .carousel {
+            width: 420px;
+        }
+
+        .bgGreen4 {
+            right: 13rem;
+            width: 13rem;
+        }
+
+        .team-line {
+            width: 15rem;
+        }
+
+        .team-line-vertical {
+            right: 120px;
+        }
+
+        .team-line-little {
+            right: 115px;
+        }
+
+        .top-bottom {
+            left: 19.5rem;
+            bottom: 3rem;
+            left: 23.1rem;
+        }
+
+        .line-toplogo {
+            top: 75px;
+            left: 175px;
+        }
+
+        .container {
+            left: 5rem;
+            width: 200px;
+        }
+
+        .comillas {
+            width: 50px;
+            height: 50px;
+            bottom: 30px;
+        }
+
+        .line-down-beige {
+            width: 25rem;
+            right: 25px;
+        }
+
+        .line-up-beige {
+            left: 175px;
+        }
+
+        .triangle-down {
+            margin-left: 11rem;
+        }
+
+        .background-logicol {
+            margin-left: 4rem;
+        } 
+
+        .nexti {
+            left: 200px;
+        }
+
+}
+
+@media screen and (min-height: 812px) {
+
+    .keluo_main {
+        left: 7rem;
+        top: 25rem;
+    }
+
+    .image_main {
+        bottom: 1590px;
+        height: 101vh;
+    }
+
+
+    .line-right {
+        height: 800px;
+        top: 60px;
+        right: 170px;
+    }
+
+    .line-right2 {
+        bottom: 750px;
+        height: 800px;
+        left: 170px;
+    }
+    
+    .fixed {
+        top: 35rem;
+        margin-left: 3rem;
+    }
+
+    .line-up-keluoHome {
+        left: 17px;
+        top: 410px;
+    }
+
+    .line-right-keluoHome {
+        left: 120px;
+        top: 400px;
+    }
+
+    .p-downKeluo {
+        left: 7rem;
+        top: 28rem;
+    }
+
+    .somosSections {
+        bottom: 2650px;
+    }
+    
+    .line-right-section {
+        left: 170px;
+        bottom: 800px;
+    }
+
+    .line-left-section {
+        right: 170px;
+        bottom: 1740px;
+        height: 900px;
+    }
+
+    .trefotos {
+        bottom: 2600px;
+        left: 1rem;
+        }
+
+        .fourSquare {
+            bottom: 2600px;
+        }
+
+        .services-p {
+            bottom: 2620px;
+            left: 50px;
+        }
+
+        .services-p2 {
+            bottom: 2470px;
+            right: 120px;;
+        }
+
+        .newsletter {
+            margin-top: -3800px;
+        }
+
+        .bgGreen4 {
+            right: 12rem;
+        }
+
+        .carousel {
+            width: 375px;
+        }
+
+}
 /* html {
     scroll-behavior: smooth;
-}
+}\
 
 body{
     margin: 0;
-    z-index: 1;
+    z-ind 1;
     overflow-x: hidden;
 }
 
