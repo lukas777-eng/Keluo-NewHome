@@ -2189,6 +2189,96 @@ input::placeholder {
         }
 
 }
+
+@media screen and (min-height: 896px) {
+    .keluo_main {
+        left: 8rem;
+        top: 25rem;
+    }
+
+    .image_main {
+        bottom: 1790px;
+        height: 101vh;
+    }
+
+
+    .line-right {
+        height: 900px;
+        top: 60px;
+        right: 190px;
+    }
+
+    .line-right2 {
+        bottom: 850px;
+        height: 900px;
+        left: 190px;
+    }
+    
+    .fixed {
+        top: 40rem;
+        margin-left: 3.5rem;
+    }
+
+    .somosSections {
+        bottom: 2820px;
+    }
+    
+    .line-right-section {
+        left: 190px;
+        bottom: 1000px;
+    }
+
+    .line-left-section {
+        right: 190px;
+        bottom: 1940px;
+        height: 900px;
+    }
+
+    .trefotos {
+        bottom: 2800px;
+        left: 1rem;
+        }
+
+        .fourSquare {
+            bottom: 2750px;
+        }
+
+        .services-p {
+            bottom: 2770px;
+            left: 50px;
+        }
+
+        .services-p2 {
+            bottom: 2600px;
+            right: 80px;;
+        }
+
+        .newsletter {
+            margin-top: -3800px;
+        }
+
+        .bgGreen4 {
+            right: 12rem;
+        }
+
+        .carousel {
+            width: 375px;
+        } 
+
+        .newsletter {
+            margin-top: -3900px;
+        }
+
+        .bgGreen4 {
+            right: 13rem;
+            width: 13rem;
+        }
+
+        .carousel {
+            width: 425px;
+        }
+
+}
 /* html {
     scroll-behavior: smooth;
 }\
