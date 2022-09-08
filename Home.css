@@ -1762,6 +1762,8 @@ input::placeholder {
 
     .somosSections {
         bottom: 2400px;
+        margin: 3rem;
+
     }
     
     .line-right-section {
@@ -1772,6 +1774,11 @@ input::placeholder {
         right: 170px;
         bottom: 1500px;
         height: 900px;
+    }
+
+    .miscelanea-top {
+        width: 17rem;
+        margin-bottom: -1rem;
     }
 
     .trefotos {
@@ -1835,7 +1842,7 @@ input::placeholder {
         }
 
         .bgGreen4 {
-            right: 8rem;
+            right: 12rem;
             width: 13rem;
         }
 
@@ -1852,7 +1859,7 @@ input::placeholder {
         }
 
         .carousel {
-            width: 350px;
+            width: 375px;
         }
 
         .top-bottom {
@@ -1957,6 +1964,11 @@ input::placeholder {
 
     .somosSections {
         bottom: 2450px;
+    }
+
+    .miscelanea-top {
+        width: 19rem;
+        margin-bottom: -1rem;
     }
 
     .trefotos {
