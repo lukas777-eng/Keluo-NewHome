@@ -14,20 +14,23 @@ let index = 0
 let interval = setInterval(startInterval, 6000);
 let intervalOpacity = setInterval(opa, 6000);
 
-setTimeout(active1opacity, 4900)
+setTimeout(active1opacity, 6000)
 
 function active1opacity() {
     document.querySelector('#active0').setAttribute('style', 'opacity:0.5 !important')
-    // console.log(document.querySelector('#active0').setAttribute('style', 'opacity:0.5 !important')
-    // )
     document.querySelector(`#radio${index}`).checked
 }
-z``
+
 function opa(){
     console.log(index);
     document.querySelector(`#active${index}`).setAttribute('style', 'opacity:1')
-    document.querySelector(`#active${index - 1}`).setAttribute('style', 'opacity:0.5')
+    if (index !== 0) {
+        document.querySelector(`#active${index - 1}`).setAttribute('style', 'opacity:0.5')
+    }
     console.log(index - 1);
+    if (index === 5) {
+        setTimeout(opacityLucas, 5900)
+    }
 }
 
 function startInterval() {
@@ -35,17 +38,28 @@ function startInterval() {
     moveCarousel()
 }
 
-function resetInterval() {
-    clearInterval(interval)
-    interval = setInterval(startInterval, 1000)
+function opacityLucas() {
+    document.querySelector(`#active${index}`).setAttribute('style', 'opacity:0.5')
 }
+// function resetInterval() {
+//     clearInterval(interval)
+//     clearInterval(intervalOpacity)
+//     interval = setInterval(startInterval, 1000)
+// }
+
+// setTimeout(resetInterval(), 36000)
+
 
 function moveCarousel() {
     // Last image set index === 0
-    if (index > imagesCollection.length -1) {
-        index = -1
+    if (index === imagesCollection.length) {
+        index = 0
+        clearInterval(interval, intervalOpacity)
+        interval = setInterval(startInterval, 6000);
+        intervalOpacity = setInterval(opa, 6000);
+
     } else if (index < 0) {
-        index = imagesCollection.length -1
+        index = 0
     }
 
     images.style.transform = `translateX(-${index * 150}px)`
