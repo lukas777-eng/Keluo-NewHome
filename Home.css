@@ -689,7 +689,7 @@ bottom: 550px;
     font-size: 14px;
     caret-color: #990000;
     padding-left: 10px;
-    border-radius: 4px;
+    /* border-radius: 4px; */
     border-style: solid;
     border-color: #C2C2C2;
     border-width: 0.5px;
@@ -967,7 +967,7 @@ input::placeholder {
 .gridTeam {
     display: grid;
     grid-template-columns: 70% 30%;
-    height: 5rem;
+    height: 7rem;
 }
 
 .column-team {
@@ -987,7 +987,7 @@ input::placeholder {
 }
 
 .keluoTeamParagraph {
-    font-size: 7px;
+    font-size: 10px;
     margin-left: 2.5rem;
 
 }
@@ -1021,7 +1021,7 @@ input::placeholder {
 }
 
 .bgGreen3 {
-    height: 5rem;
+    height: 7rem;
     width: 100%;
     background-color: #494F4A;
     border: none;
@@ -1271,10 +1271,10 @@ input::placeholder {
 }
 
 .isabella {
-    width: 100px;
-    height: 90px;
+    width: 70px;
+    height: 70px;
     object-fit: contain;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
 }
 
 .reseniaIsabella {
@@ -1554,17 +1554,15 @@ input::placeholder {
 }
 
 .footer {
-    height: 10rem;
+    height: 57rem;
     width: 100%;
 }
 
 .imgFooter {
-    position: relative;
     width: 12rem;
-    height: 6rem;
-    margin-left: 1rem;
+    height: 7rem;
+    margin-left: 5.7rem;
     /* margin-bottom: 5rem; */
-    bottom: 3rem;
 }
 
 .outline {
@@ -1597,9 +1595,6 @@ input::placeholder {
     margin-top: -10px;
 }
 
-.titleFooter {
-    
-}
 
 .footerinsidefooter {
     position: relative;
@@ -1728,6 +1723,310 @@ input::placeholder {
     bottom: 95px;
 }
 
+.footerLeftH {
+    position: relative;
+    right: 120px;
+    bottom: 70px;
+    width: 75px;
+}
+
+.footerRightH {
+    position: relative;
+    left: 120px;
+    bottom: 80px;
+    width: 75px;
+}
+
+.footerLeftV {
+    position: relative;
+    right: 160px;
+    bottom: 90px;
+    height: 720px;
+    width: 0;
+}
+
+.footerRightV {
+    position: relative;
+    left: 158px;
+    bottom: 820px;
+    height: 720px;
+    width: 0;
+}
+
+.titleFooter {
+    position: relative;
+    z-index: 1;
+    bottom: 1480px;
+    left: 50px;
+}
+
+.footerTitle {
+    font-weight: 700;
+    font-size: 15px;
+    opacity: 0.7;
+    margin-bottom: 5px;
+}
+
+.servicesFooter {
+    font-weight: 100;
+    font-size: 13px;
+    opacity: 0.7;
+    margin: 2px;
+}
+
+.contactFooter {
+    position: relative;
+    z-index: 1;
+    bottom: 1470px;
+    left: 50px;
+}
+
+.contactTitle {
+    font-weight: 700;
+    font-size: 15px;
+    opacity: 0.7;
+}
+
+.footerRRSS {
+    display: flex;
+    flex-direction: row;
+}
+
+.infoFooter {
+    position: relative;
+    z-index: 1;
+    bottom: 1460px;
+    left: 50px;
+}
+
+.inputFooter {
+    display: flex;
+    position: relative;
+    height: 30px;
+    width: 280px;
+    padding: 1px;
+    margin: 1px;
+    align-items: center;
+    bottom: 10px;
+    left: 0;
+}
+
+.buttonFooter {
+    width: 280px;
+    border-radius: 0;
+    height: 25px;
+    background-color: #494F4A;
+    border: none;
+    /* position: absolute; */
+    /* z-index: 5; */
+}
+
+.enviarFooter {
+    color: white;
+    font-size: 10px;
+    opacity: 0.9;
+    letter-spacing: 1px;
+    position: relative;
+    z-index: 1;
+}
+
+.outlineButton {
+    outline: 0.1px solid #000000;
+    outline-offset: 7px;
+    position: relative;
+    z-index: -1;
+    margin-left: 5px;
+    width: 266px;
+    bottom: 20px;
+    height: 10px;
+}
+
+.VerticalDown1 {
+    bottom: 1415px;
+    position: relative;
+    width: 317px;
+    color: #000000;
+}
+
+.VerticalDown2 {
+    bottom: 1400px;
+    position: relative;
+    width: 317px;
+    color: #000000;
+}
+
+.VerticalDown3 {
+    bottom: 1385px;
+    position: relative;
+    width: 317px;
+    color: #000000;
+}
+
+.footerLegales {
+    position: relative;
+    bottom: 1445px;
+    left: 75px;
+    font-weight: 900;
+    font-size: 13px;
+}
+
+.footerTerminos {
+    position: relative;
+    bottom: 1480px;
+    left: 195px;
+    font-weight: 100;
+    font-size: 13px;
+    opacity: 0.7;
+    margin: 2px;
+}
+
+.footerPrivacidad {
+    position: relative;
+    bottom: 1470px;
+    left: 40px;
+    font-weight: 100;
+    font-size: 13px;
+    opacity: 0.7;
+    margin: 2px;
+}
+
+.footerCookies {
+    position: relative;
+    bottom: 1490px;
+    left: 205px;
+    font-weight: 100;
+    font-size: 13px;
+    opacity: 0.7;
+    margin: 2px;
+}
+
+.separator {
+    position: relative;
+    bottom: 1555px;
+    left: 180px;
+}
+
+.separator2 {
+    position: relative;
+    bottom: 1566px;
+    left: 180px;
+}
+
+.footer22 {
+    position: relative;
+    bottom: 1570px;
+    font-size: 10px;
+    opacity: 0.5;
+    left: 50px;
+}
+
+.footerLove {
+    position: relative;
+    bottom: 1570px;
+    font-size: 10px;
+    opacity: 0.5;
+    left: 30px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+    .imgFooter {
+        margin-left: 4rem;
+    }
+
+    .footerLeftH {
+        right: 110px;
+        width: 50px;
+    }
+
+    .footerRightH {
+        left: 110px;
+        width: 50px;
+    }
+
+     .footerLeftV {
+        right: 135px;
+    } 
+
+    .footerRightV {
+        left: 135px;
+    }
+
+    .footerTitle {
+        font-size: 13px;
+    }
+
+    .inputFooter {
+        width: 220px;
+    }
+
+    .buttonFooter {
+        width: 220px;
+    }
+
+    .outlineButton {
+        width: 210px;
+    }
+
+    .VerticalDown1 {
+        bottom: 1405px;
+        width: 270px;
+    }
+
+    .VerticalDown2 {
+        bottom: 1385px;
+        width: 270px;
+    }
+
+    .VerticalDown3 {
+        bottom: 1365px;
+        width: 270px;
+    }
+    
+    .footerLegales {
+        bottom: 1430px;
+        left: 60px;
+    }
+
+    .footerTerminos {
+        bottom: 1465px;
+        left: 165px;
+        font-size: 12px;
+    }
+
+    .footerPrivacidad {
+        bottom: 1450px;
+        font-size: 12px;
+        left: 30px;
+    }
+
+    .footerCookies {
+        bottom: 1470px;
+        font-size: 12px;
+        left: 180px;
+    }
+
+    .separator {
+        bottom: 1540px;
+        left: 155px;
+    }
+
+    .separator2 {
+        bottom: 1545px;
+        left: 155px;
+    }
+
+    .footer22 {
+        bottom: 1550px;
+        font-size: 9.5px;
+        left: 40px;
+    }
+
+    .footerLove {
+        bottom: 1550px;
+        font-size: 9.5px;
+        left: 15px;
+    }
+}
 
 @media only screen and (min-width: 375px) and (max-width: 430px) {
     .link-header {
@@ -1792,11 +2091,12 @@ input::placeholder {
     
     .line-right-section {
         left: 170px;
+        bottom: 590px;
     }
 
     .line-left-section {
         right: 170px;
-        bottom: 1500px;
+        bottom: 1510px;
         height: 900px;
     }
 
@@ -1811,7 +2111,9 @@ input::placeholder {
         }
 
         .fourSquare {
-            bottom: 2300px;
+            bottom: 2350px;
+            margin: 2rem;
+            bottom: 2375px;
         }
 
         .services-p {
@@ -2193,6 +2495,52 @@ input::placeholder {
             left: 200px;
         }
 
+        .imgFooter {
+            margin-left: 7rem;
+
+        }
+
+        .titleFooter {
+            left: 70px;
+        }
+
+        .contactFooter {
+            left: 70px;
+        }
+
+        .infoFooter {
+            left: 70px;
+        }
+
+        .footerTerminos {
+            left: 210px;
+        }
+
+        .footerCookies {
+            left: 215px;
+        }
+
+        .footerPrivacidad {
+            left: 50px;
+        }
+
+        .separator {
+            left: 190px;
+        }
+
+        .separator2 {
+            left: 190px;
+        }
+
+        .footer22 {
+            left: 50px;
+            font-size: 12px;
+        }
+
+        .footerLove {
+            font-size: 12px;
+        }
+
 }
 
 @media screen and (min-height: 812px) {
@@ -2292,97 +2640,6 @@ input::placeholder {
 
 }
 
-@media screen and (min-height: 896px) {
-    .keluo_main {
-        left: 8rem;
-        top: 25rem;
-    }
-
-    .image_main {
-        bottom: 1790px;
-        height: 101vh;
-    }
-
-
-    .line-right {
-        height: 900px;
-        top: 60px;
-        right: 190px;
-    }
-
-    .line-right2 {
-        bottom: 850px;
-        height: 900px;
-        left: 190px;
-    }
-    
-    .fixed {
-        top: 40rem;
-        margin-left: 3.5rem;
-    }
-
-    .somosSections {
-        bottom: 2820px;
-    }
-    
-    .line-right-section {
-        left: 190px;
-        bottom: 1000px;
-    }
-
-    .line-left-section {
-        right: 190px;
-        bottom: 1940px;
-        height: 900px;
-    }
-
-    .trefotos {
-        bottom: 2800px;
-        left: 1rem;
-        }
-
-        .fourSquare {
-            bottom: 2750px;
-        }
-
-        .services-p {
-            bottom: 2770px;
-            left: 30px;
-            font-size: 8.5px;
-        }
-
-        .services-p2 {
-            bottom: 2620px;
-            right: 80px;;
-        }
-
-        .newsletter {
-            margin-top: -3800px;
-        }
-
-        .bgGreen4 {
-            right: 12rem;
-        }
-
-        .carousel {
-            width: 375px;
-        } 
-
-        .newsletter {
-            margin-top: -3900px;
-        }
-
-        .bgGreen4 {
-            right: 13rem;
-            width: 13rem;
-        }
-
-        .carousel {
-            width: 425px;
-        }
-
-}
-
 @media screen and (min-width: 390px) and (min-height: 844px) {
     .line-right {
         top: 50px;
@@ -2436,7 +2693,7 @@ input::placeholder {
     }
 
     .carousel {
-        width: 390px;
+        width: 420px;
     }
 
     .top-bottom {
@@ -2455,6 +2712,134 @@ input::placeholder {
     .cuadrado {
         margin-left: 330px;
     }
+
+    .bgGreen4 {
+        width: 20rem;
+
+    }
+
+
+    .selloService {
+        margin-left: 7.5rem;
+
+    }
+
+
+    .kit-image { 
+        position: relative;
+        width: 10rem;
+        height: 12rem;
+        top: 6rem;
+        right: 6rem;
+        border: 1px solid #000000;
+        object-fit: cover;
+    }
+
+}
+
+@media screen and ( height: 896px) {
+    .keluo_main {
+        left: 8rem;
+        top: 25rem;
+    }
+
+    .image_main {
+        bottom: 1790px;
+        height: 101vh;
+    }
+
+
+    .line-right {
+        height: 900px;
+        top: 60px;
+        right: 190px;
+    }
+
+    .line-right2 {
+        bottom: 850px;
+        height: 900px;
+        left: 190px;
+    }
+    
+    .fixed {
+        top: 40rem;
+        margin-left: 3.5rem;
+    }
+
+    .somosSections {
+        bottom: 2650px;
+    }
+    
+    .line-right-section {
+        left: 190px;
+        bottom: 1210px;
+    }
+
+        .line-left-section {
+            right: 190px;
+            bottom: 1920px;
+            height: 700px;
+        }
+
+    .trefotos {
+        bottom: 2670px;
+        left: 1rem;
+        }
+
+        .fourSquare {
+            bottom: 2750px;
+        }
+
+        .services-p {
+            bottom: 2790px;
+            left: 50px;
+            font-size: 7.5px;
+        }
+
+        .services-p2 {
+            bottom: 2650px;
+            right: 80px;;
+        }
+
+        .newsletter {
+            margin-top: -3800px;
+        }
+
+        .bgGreen4 {
+            right: 12rem;
+        }
+
+        .carousel {
+            width: 375px;
+        } 
+
+        .newsletter {
+            margin-top: -3900px;
+        }
+
+        .bgGreen4 {
+            right: 13rem;
+            width: 13rem;
+        }
+
+        .carousel {
+            width: 420px;
+        }
+
+        .selloService {
+            margin-left: 8.3rem;
+
+        }
+
+        .kit-image { 
+            position: relative;
+            width: 10rem;
+            height: 12rem;
+            top: 6rem;
+            right: 6rem;
+            border: 1px solid #000000;
+            object-fit: cover;
+        }
 
 }
 
