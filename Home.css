@@ -362,12 +362,12 @@ bottom: 550px;
 }
 
 .pSomos {
-    font-size: 9px;
+    font-size: 12px;
 }
 
 .keluoRed {
     color: #CC2A4D;
-    font-size: 9px;
+    font-size: 12px;
 }
 
 .trefotos {
@@ -862,7 +862,7 @@ input::placeholder {
 }
 
 .kitTitle {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     margin: 0;
     font-weight: 500;
 }
@@ -874,7 +874,7 @@ input::placeholder {
 }
 
 .doce {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     margin: 0;
     opacity: 0.5;
 }
@@ -927,7 +927,7 @@ input::placeholder {
 }
 
 .portfolio-h3 {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     font-weight: 100;
     margin: 0 0 0 1.5rem;
     opacity: 0.5;
@@ -2256,7 +2256,27 @@ input::placeholder {
             margin-left: 4rem;
         } 
 
-}
+        .keluoTeamParagraph {
+            font-size: 12px;
+        
+        }
+
+
+        .portfolio-h3 {
+            font-size: 1.1rem;
+        }
+
+            .doce {
+                font-size: 0.9rem;
+            }
+
+            .kit-image { 
+                right: 3rem;
+            }
+    
+    
+     
+    }
 
 @media only screen and (min-width: 414px) and (max-width:480px) {
     .link-header {
@@ -2540,6 +2560,8 @@ input::placeholder {
         .footerLove {
             font-size: 12px;
         }
+        
+      
 
 }
 
@@ -2638,6 +2660,8 @@ input::placeholder {
             width: 375px;
         }
 
+        
+
 }
 
 @media screen and (min-width: 390px) and (min-height: 844px) {
@@ -2730,10 +2754,12 @@ input::placeholder {
         width: 10rem;
         height: 12rem;
         top: 6rem;
-        right: 6rem;
+        right: 3.5rem;
         border: 1px solid #000000;
         object-fit: cover;
     }
+
+
 
 }
 
@@ -2836,10 +2862,57 @@ input::placeholder {
             width: 10rem;
             height: 12rem;
             top: 6rem;
-            right: 6rem;
+            right: 4rem;
             border: 1px solid #000000;
             object-fit: cover;
         }
+
+        /* .keluo-team-title {
+            margin-left: 4rem;
+
+        
+        } */
+
+        .keluoTeamParagraph {
+            font-size: 11px;
+            /* margin-left: 5rem; */
+        
+        }
+
+        .portfolio-h3 {
+            font-size: 1rem;
+            font-weight: 100;
+            margin: 0 0 0 1.5rem;
+            opacity: 0.5;
+        
+        }
+
+        .line-right-red {
+            left: 170px;
+        }
+
+        .kitTitle {
+            font-size: 1.5rem;
+            margin: 0;
+            font-weight: 500;
+        }
+
+        .doce {
+            font-size: 0.8rem;
+            margin: 0;
+            opacity: 0.5;
+        }
+
+        .pSomos {
+            font-size: 13px;
+        }
+
+        .keluoRed {
+            font-size: 13px;
+        }
+
+
+       
 
 }
 
