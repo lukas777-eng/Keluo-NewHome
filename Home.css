@@ -1038,8 +1038,8 @@ input::placeholder {
 }
 
 .peopleTeam{
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
     margin: 5px;
     /* border: 1px solid black; */
@@ -1085,8 +1085,8 @@ input::placeholder {
 }
 
 .image {
-    width: 150px;
-    height: 150px;
+    width: 170px;
+    height: 200px;
     border: 1px solid black;
     margin: 0 1rem;
     background-color: #DBDCD2;
@@ -1112,24 +1112,24 @@ input::placeholder {
 
 .teamName {
     margin: 20px 0 0 0;
-    font-size: 7px;
+    font-size: 10px;
     width: 75px;
 }
 
 .teamJob {
     margin: 5px 0 0 0;
-    font-size: 7px;
-    width: 75px;
+    font-size: 10px;
+    width: 80px;
 }
 
 .presentacionTeam {
-    font-size: 7px;
+    font-size: 10px;
     margin: 5px 20px;
 }
 
 .miscelanea {
     width: 120px;
-    margin: 0 0 0 5px;
+    margin: 0 0 0 17px;
 }
 .slidemenu {
     width: 75%;
@@ -1220,7 +1220,7 @@ input::placeholder {
     cursor: pointer;
 }
 
-.container{
+.containerX{
     width: 190px;
     height: 100px;
     position: relative;
@@ -1510,7 +1510,7 @@ input::placeholder {
 
 .line-down-beige {
     width: 19rem;
-    position: relative;
+    position: relative; 
     bottom: 10rem;
     right: 17px;
 
@@ -1922,6 +1922,64 @@ input::placeholder {
     left: 30px;
 }
 
+.slide-container {
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+    bottom: 170px;
+}
+
+.arrow {
+    display: none;
+}
+
+section  {
+    width: 100%;
+    /* height: 300px; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    /* border: 1px solid black; */
+}
+
+section::-webkit-scrollbar {
+    height: 5px;
+    width: 2px;
+    border: 1px solid #d5d5d5;
+    background: #d5d5d5;
+}
+
+section::-webkit-scrollbar-track {
+    --webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+section::-webkit-scrollbar-thumb {
+    background-color: grey;
+    outline: 1px solid #eee;
+     /* border-radius: 100px; */
+  }
+
+  section .thumbnail {
+    flex: 0 0 auto;
+	object-fit: cover;
+	cursor: pointer;
+	margin: 5px;
+    overflow: hidden;
+    transform: scale(.95);
+    transition: all .3s;
+}
+
+section .thumbnail:hover {
+    transform: scale(1);
+}
+
 @media only screen and (min-width: 320px) and (max-width: 374px) {
     .kit-image {
         right: 3rem;
@@ -2044,6 +2102,14 @@ input::placeholder {
     .footer {
         height: 40rem;
         width: 100%;
+    }
+
+    .bgGreen4 {
+        right: 15rem;
+    }
+
+    .kit-digital-paragraph2 {
+        top: 120px;
     }
     
 }
@@ -2255,7 +2321,7 @@ input::placeholder {
             left: 160px;
         }
 
-        .container {
+        .containerX {
             width: 230px;
             left: 3rem;
         }
@@ -2480,7 +2546,7 @@ input::placeholder {
             position: relative;
             margin: 0;
             padding: 0;
-            top: 110px;
+            top: 200px;
             right: 30px;
             width: 20rem;
             opacity: 0.5;
@@ -2559,7 +2625,7 @@ input::placeholder {
             left: 160px;
         }
 
-        .container {
+        .containerX {
             width: 230px;
             left: 3rem;
         }
@@ -2792,7 +2858,7 @@ input::placeholder {
             position: relative;
             margin: 0;
             padding: 0;
-            top: 125px;
+            top: 110px;
             right: 30px;
             width: 20rem;
             opacity: 0.5;
@@ -2820,8 +2886,9 @@ input::placeholder {
         }
 
         .bgGreen4 {
-            right: 13rem;
+            right: 12rem;
             width: 13rem;
+            height: 17rem;
         }
 
         .team-line {
@@ -2843,9 +2910,38 @@ input::placeholder {
         }
 
         .line-toplogo {
-            top: 75px;
+            top: 55px;
             left: 175px;
+            height:150px;
+
         }
+
+        .beigeLogicol {
+            height: 5rem;
+            width: 100%;
+            background-color: #EAE3D8;
+            position: relative;
+            bottom: 10rem;
+        }
+
+        .line-up-beige {
+            width: 0;
+            height: 3rem;
+            /* margin-right: 5rem; */
+            position: relative;
+            bottom: 11rem;
+            left: 135px;
+            z-index: -1;
+        }
+
+        .line-down-beige {
+            width: 19rem;
+            position: relative;
+            bottom: 11.5rem;
+            right: 17px;
+        
+        }
+        
 
         /* .container {
             left: 5rem;
@@ -2858,7 +2954,7 @@ input::placeholder {
             bottom: 30px;
         } */
 
-        .container {
+        .containerX {
             width: 250px;
             left: 3rem;
         }
@@ -3076,6 +3172,10 @@ input::placeholder {
             height: 40rem;
             width: 100%;
         }
+
+        .line-toplogo {
+            top: 82px;
+        }
         
 
 }
@@ -3251,24 +3351,12 @@ input::placeholder {
         }
 
         .newsletter {
-            margin-top: -3800px;
-        }
-
-        .bgGreen4 {
-            right: 12rem;
-        }
-
-        .carousel {
-            width: 375px;
-        } 
-
-        .newsletter {
             margin-top: -3900px;
         }
 
         .bgGreen4 {
             top: 1rem;
-            right: 13rem;
+            right: 12rem;
             width: 13rem;
             height: 19rem;
         }
@@ -3532,7 +3620,7 @@ input::placeholder {
             left: 175px;
         }
 
-        .container {
+        .containerX {
             width: 250px;
             left: 4rem;
         }
@@ -3761,7 +3849,7 @@ input::placeholder {
             left: 175px;
         }
 
-        .container {
+        .containerX {
             width: 250px;
             left: 4rem;
         }
@@ -4014,7 +4102,7 @@ input::placeholder {
             left: 160px;
         }
 
-        .container {
+        .containerX {
             width: 230px;
             left: 3rem;
         }
@@ -4132,3 +4220,16 @@ input::placeholder {
     }
      
     }
+
+@media only screen and (min-width: 428px) and (height: 926px) {
+
+    .line-right-red {
+        /* border: 1px solid black; */
+        height: 15rem;
+        width: 0;
+        position: relative;
+        left: 200px;
+        bottom: 10px;
+    }
+
+}
