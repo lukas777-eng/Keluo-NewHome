@@ -1,6 +1,5 @@
 /* CORE STYLES */
 :root {
-    --primary-color: rgba(13, 110, 139, 0.75);
     --overlay-color: rgba(24, 39, 51 , 0.85);
     --menu-speed: 0.75s;
   }
@@ -23,12 +22,6 @@ body {
     box-sizing: border-box;
     max-height: 100%;
 }
-/*   
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  } */
 
   .header {
     background-color: rgb(79, 77, 77);
@@ -85,7 +78,6 @@ body {
     width: 30px;
     height: 30px;
     padding: 1rem;
-    /* background: var(--primary-color); */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -232,16 +224,6 @@ body {
 
 }
 
-/* .keluo_border {
-    position: absolute;
-    width: 12rem;
-    height: 3rem;
-    margin-top: 9rem;
-    margin-left: 5rem;
-    border-top: 1px solid #EAEAEA;
-    border-right: 1px solid #EAEAEA;
-} */
-
 .line-up-keluoHome {
     width: 200px;
     position: relative;
@@ -289,13 +271,6 @@ body {
 }
 
 .button-fixed {
-    /* background-color: #F6AB9F; */
-    /* display: block;
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    border: none;
-    opacity: 50%; */
     margin: 1rem;
 }
 
@@ -309,8 +284,6 @@ body {
     display: flex;
     top: 20rem;
     margin-left: 1.5rem;
-    /* margin-top: 30rem;
-    margin-left: 2rem; */
     z-index: 2;
 }
 
@@ -321,7 +294,6 @@ body {
 }
 
 .section-somos {
-    /* margin-top: -1475px; */
     position: relative;
     bottom: 1200px;
     margin-bottom: -1200px;
@@ -547,7 +519,6 @@ body {
     margin: 0;
     padding: 0;
     left: 25px;
-    /* bottom: 20px; */
     width: 17.5rem; 
     letter-spacing: 0.5px;
     bottom: 2070px;
@@ -560,7 +531,6 @@ body {
     margin: 0;
     padding: 0;
     right: 180px;
-    /* top: 50px; */
     width: 60rem; 
     letter-spacing: 0.5px;
     transform:rotate(90deg);
@@ -689,7 +659,6 @@ body {
     font-size: 14px;
     caret-color: #990000;
     padding-left: 10px;
-    /* border-radius: 4px; */
     border-style: solid;
     border-color: #C2C2C2;
     border-width: 0.5px;
@@ -730,10 +699,6 @@ body {
     background-color: white;
     padding-left: 5px;
     padding-right: 5px;
-}
-    
-.search {
-    float: right;
 }
 
 .label {
@@ -809,12 +774,6 @@ input::placeholder {
     height: 20rem;
 }
 
-/* .bgBeigeDigitalVertical {
-    height: 2rem;
-    width: 1rem;
-    background-color: #F6AB9F;
-} */
-
 .kit-digital-paragraph {
     font-size: 6.5px;
     position: relative;
@@ -876,7 +835,7 @@ input::placeholder {
 .doce {
     font-size: 0.8rem;
     margin: 0;
-    opacity: 0.5;
+    opacity: 0.4;
 }
 
 .kit-image { 
@@ -892,8 +851,6 @@ input::placeholder {
 .portfolio {
     height: 15rem;
     width: 90%;
-    /* outline: 1px solid #000000;
-    outline-offset: 1px; */
     margin-top: 2rem;
 }
 
@@ -906,13 +863,11 @@ input::placeholder {
 }
 
 .line-above-red {
-    /* border: 1px solid black; */
     width: 17rem;
     margin-left: 0;
 }
 
 .line-right-red {
-    /* border: 1px solid black; */
     height: 15rem;
     width: 0;
     position: relative;
@@ -1042,7 +997,6 @@ input::placeholder {
     height: 70px;
     border-radius: 50%;
     margin: 5px;
-    /* border: 1px solid black; */
 }
 
 .oteam {
@@ -1090,15 +1044,6 @@ input::placeholder {
     border: 1px solid black;
     margin: 0 1rem;
     background-color: #DBDCD2;
-    opacity: 0.5;
-}
-
-#active0 {
-    opacity: 1 !important;
-}
-
-#active-1 {
-    display: none;
 }
 
 .teamGrid {
@@ -1185,27 +1130,6 @@ input::placeholder {
     margin-left:80%
 }
 
-.slidemenu .menu-one:checked + label {
-    opacity:1
-}
-
-.slidemenu .menu-two:checked + label {
-    opacity:1
-}
-
-.slidemenu .menu-three:checked + label {
-    opacity:1
-}
-
-.slidemenu .menu-four:checked + label {
-    opacity:1
-}
-
-.slidemenu .menu-five:checked + label {
-    opacity:1
-}
-
-
 /* Controls */
 .controls {
     height: 25px;
@@ -1239,7 +1163,6 @@ input::placeholder {
     padding: 20px;
     left: 2rem;
     z-index: 1;
-    /* border: 1px solid #000000; */
 }
 
 .loDicenEllosp {
@@ -1305,7 +1228,6 @@ input::placeholder {
     font-weight: bold;
     font-size: 10px;
     transition: 0.6 ease;
-    /* border-radius: 0 3px 3px 0; */
     user-select: none;
     border:  solid #CC2A4D 2px;
     background-color: #ffffff;
@@ -1314,7 +1236,6 @@ input::placeholder {
 .nexti2 {
     position: relative;
     left: 100px;
-    /* border-radius: 3px 0 0 3px; */
     margin-right: -0.5rem;
     background-color: #CC2A4D;
     color: #ffffff;
@@ -1346,7 +1267,6 @@ input::placeholder {
     font-weight: bold;
     font-size: 10px;
     transition: 0.6 ease;
-    /* border-radius: 0 3px 3px 0; */
     user-select: none;
     border:  solid #CC2A4D 1px;
 }
@@ -1354,7 +1274,6 @@ input::placeholder {
 .nexti {
     position: relative;
     left: 190px;
-    /* border-radius: 3px 0 0 3px; */
     margin-right: -0.5rem;
     background-color: #CC2A4D;
     color: #ffffff;
@@ -1501,7 +1420,6 @@ input::placeholder {
 .line-up-beige {
     width: 0;
     height: 2rem;
-    /* margin-right: 5rem; */
     position: relative;
     bottom: 9.5rem;
     left: 135px;
@@ -1556,7 +1474,6 @@ input::placeholder {
     width: 12rem;
     height: 7rem;
     margin-left: 5.7rem;
-    /* margin-bottom: 5rem; */
 }
 
 .outline {
@@ -1620,7 +1537,6 @@ input::placeholder {
     font-family: Arial;
     color: #666666;
     font-size: 20px;
-    /* padding: 10px 20px 50px 20px; */
     border: solid #666666 2px;
     text-decoration: none;
     width: 70px;
@@ -1811,8 +1727,6 @@ input::placeholder {
     height: 25px;
     background-color: #494F4A;
     border: none;
-    /* position: absolute; */
-    /* z-index: 5; */
 }
 
 .enviarFooter {
@@ -1923,7 +1837,7 @@ input::placeholder {
 }
 
 .slide-container {
-    max-width: 400px;
+    max-width: 420px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1938,7 +1852,6 @@ input::placeholder {
 
 section  {
     width: 100%;
-    /* height: 300px; */
     margin: 0 auto;
     display: flex;
     justify-content: flex-start;
@@ -1946,7 +1859,6 @@ section  {
     flex-wrap: nowrap;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
-    /* border: 1px solid black; */
 }
 
 section::-webkit-scrollbar {
@@ -1963,7 +1875,6 @@ section::-webkit-scrollbar-track {
 section::-webkit-scrollbar-thumb {
     background-color: grey;
     outline: 1px solid #eee;
-     /* border-radius: 100px; */
   }
 
   section .thumbnail {
@@ -1978,6 +1889,25 @@ section::-webkit-scrollbar-thumb {
 
 section .thumbnail:hover {
     transform: scale(1);
+}
+
+
+.container {
+    margin-top: -1.5rem;
+}
+
+.line-little-left {
+    position: relative;
+    bottom: 2720px;
+    right: 162px;
+    width: 11px;
+}
+
+.line-little-right {
+    position: relative;
+    bottom: 2720px;
+    left: 162px;
+    width: 12px;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 374px) {
@@ -2372,7 +2302,6 @@ section .thumbnail:hover {
         }
 
         .line-up-beige {
-            /* margin-right: 5rem; */
             left: 160px;
         }
 
@@ -2412,6 +2341,10 @@ section .thumbnail:hover {
             .footer {
                 height: 40rem;
                 width: 100%;
+            }
+
+            .container {
+                margin-top: -1.5rem;
             }
             
      
@@ -2672,7 +2605,6 @@ section .thumbnail:hover {
         }
 
         .line-up-beige {
-            /* margin-right: 5rem; */
             left: 160px;
         }
 
@@ -2810,7 +2742,7 @@ section .thumbnail:hover {
     }
 
     .selloService {
-        margin-left: 9.7rem;
+        margin-left: 9.2rem;
     }
 
      .services-p {
@@ -2927,7 +2859,6 @@ section .thumbnail:hover {
         .line-up-beige {
             width: 0;
             height: 3rem;
-            /* margin-right: 5rem; */
             position: relative;
             bottom: 11rem;
             left: 135px;
@@ -2941,18 +2872,6 @@ section .thumbnail:hover {
             right: 17px;
         
         }
-        
-
-        /* .container {
-            left: 5rem;
-            width: 200px;
-        }
-
-        .comillas {
-            width: 50px;
-            height: 50px;
-            bottom: 30px;
-        } */
 
         .containerX {
             width: 250px;
@@ -3068,6 +2987,21 @@ section .thumbnail:hover {
         }
         
 
+        .container {
+            margin-top: -1.5rem;
+        }
+
+        .line-little-left {
+            bottom: 2895px;
+            right: 183px;
+            width: 13px;
+        }
+        
+        .line-little-right {
+            bottom: 2914px;
+            left: 183px;
+            width: 13px;
+        }
         
       
 
@@ -3176,25 +3110,34 @@ section .thumbnail:hover {
         .line-toplogo {
             top: 82px;
         }
+
+        .line-little-left {
+            bottom: 2950px;
+            right: 162px;
+            width: 13px;
+        }
+        
+        .line-little-right {
+            bottom: 2930px;
+            left: 162px;
+            width: 13px;
+        }
+        
+      
         
 
 }
 
 @media screen and (min-width: 390px) and (min-height: 844px) {
+
     .line-right {
         top: 50px;
         height: 880px;
-        /* height: 800px;
-        top: 60px;
-        right: 190px; */
     }
 
     .line-right2 {
         bottom: 830px;
         height: 850px;
-        /* bottom: 800px;
-        height: 800px;
-        left: 190px; */
     }
 
     .image_main {
@@ -3284,6 +3227,18 @@ section .thumbnail:hover {
         margin-top: -3920px;
     }
 
+    .line-little-left {
+        bottom: 3055px;
+        right: 159px;
+        width: 22px;
+    }
+    
+    .line-little-right {
+        bottom: 3095px;
+        left: 159px;
+        width: 20px;
+    }
+
 }
 
 @media screen and ( height: 896px) {
@@ -3316,42 +3271,42 @@ section .thumbnail:hover {
     }
 
     .somosSections {
-        bottom: 2650px;
+        bottom: 2750px;
     }
     
     .line-right-section {
         left: 190px;
-        bottom: 1210px;
+        bottom: 1110px;
     }
 
         .line-left-section {
             right: 190px;
             bottom: 1920px;
-            height: 700px;
+            height: 800px;
         }
 
     .trefotos {
-        bottom: 2670px;
+        bottom: 2770px;
         left: 1rem;
         }
 
         .fourSquare {
-            bottom: 2750px;
+            bottom: 2850px;
         }
 
         .services-p {
-            bottom: 2790px;
+            bottom: 2890px;
             left: 50px;
             font-size: 7.5px;
         }
 
         .services-p2 {
-            bottom: 2650px;
+            bottom: 2750px;
             right: 100px;;
         }
 
         .newsletter {
-            margin-top: -3900px;
+            margin-top: -4075px;
         }
 
         .bgGreen4 {
@@ -3380,16 +3335,8 @@ section .thumbnail:hover {
             object-fit: cover;
         }
 
-        /* .keluo-team-title {
-            margin-left: 4rem;
-
-        
-        } */
-
         .keluoTeamParagraph {
             font-size: 11px;
-            /* margin-left: 5rem; */
-        
         }
 
         .portfolio-h3 {
@@ -3427,6 +3374,22 @@ section .thumbnail:hover {
         .top-bottom {
             left: 23.2rem;
             bottom: 3rem;
+        }
+        .footer {
+            height: 53rem;
+        }
+
+        
+        .line-little-left {
+            bottom: 3158px;
+            right: 175px;
+            width: 30px;
+        }
+        
+        .line-little-right {
+            bottom: 3166px;
+            left: 175px;
+            width: 30px;
         }
        
 
@@ -3558,16 +3521,8 @@ section .thumbnail:hover {
             object-fit: cover;
         }
 
-        /* .keluo-team-title {
-            margin-left: 4rem;
-
-        
-        } */
-
         .keluoTeamParagraph {
-            font-size: 11px;
-            /* margin-left: 5rem; */
-        
+            font-size: 11px;        
         }
 
         .portfolio-h3 {
@@ -3787,16 +3742,8 @@ section .thumbnail:hover {
             object-fit: cover;
         }
 
-        /* .keluo-team-title {
-            margin-left: 4rem;
-
-        
-        } */
-
         .keluoTeamParagraph {
             font-size: 11px;
-            /* margin-left: 5rem; */
-        
         }
 
         .portfolio-h3 {
@@ -4153,7 +4100,6 @@ section .thumbnail:hover {
         }
 
         .line-up-beige {
-            /* margin-right: 5rem; */
             left: 160px;
         }
 
@@ -4221,15 +4167,240 @@ section .thumbnail:hover {
      
     }
 
-@media only screen and (min-width: 428px) and (height: 926px) {
+@media only screen and (width: 428px) and (height: 926px) {
 
-    .line-right-red {
-        /* border: 1px solid black; */
-        height: 15rem;
-        width: 0;
-        position: relative;
-        left: 200px;
-        bottom: 10px;
+    .menu-wrap {
+        left: 21rem;
     }
 
+    .keluo_main {
+        left: 8rem;
+        top: 25rem;
+    }
+
+    .image_main {
+        bottom: 1790px;
+        height: 101vh;
+    }
+
+    .p-downKeluo {
+        left: 8rem;
+    }
+
+
+    .line-right {
+        height: 900px;
+        top: 60px;
+        right: 190px;
+    }
+
+    .line-right2 {
+        bottom: 850px;
+        height: 900px;
+        left: 190px;
+    }
+    
+    .fixed {
+        top: 40rem;
+        margin-left: 4rem;
+    }
+
+    .somosSections {
+        bottom: 2820px;
+    }
+    
+    .line-right-section {
+        left: 190px;
+        bottom: 1100px;
+    }
+
+    .line-left-section {
+            right: 190px;
+            bottom: 1970px;
+            height: 850px;
+    }
+
+    .trefotos {
+        bottom: 2820px;
+        left: 1rem;
+        }
+
+
+    .unoimg {
+        bottom: 4rem;
+        left: 2rem;
+        width: 6.5rem;
+    }
+
+    .dosimg {
+        width: 6.5rem;
+    }
+
+    .treimg {
+        width: 6.5rem;
+    }
+
+    .rectangulo {
+        width: 350px;
+    }
+
+        .fourSquare {
+            bottom: 2870px;
+        }
+
+        .services-p {
+            bottom: 2910px;
+            left: 50px;
+            font-size: 7.5px;
+        }
+
+        .services-p2 {
+            bottom: 2770px;
+            right: 90px;;
+        }
+
+        .carousel {
+            width: 375px;
+        } 
+
+        .newsletter {
+            margin-top: -4050px;
+        }
+
+        .bgGreen4 {
+            top: 1rem;
+            right: 11rem;
+            width: 13rem;
+            height: 19rem;
+        }
+
+        .carousel {
+            width: 420px;
+        }
+
+        .selloService {
+            margin-left: 8.7rem;
+
+        }
+
+        .kit-image { 
+            position: relative;
+            width: 10rem;
+            height: 12rem;
+            top: 6rem;
+            right: 4rem;
+            border: 1px solid #000000;
+            object-fit: cover;
+        }
+
+        .keluoTeamParagraph {
+            font-size: 11px;
+        }
+
+        .portfolio-h3 {
+            font-size: 1rem;
+            font-weight: 100;
+            margin: 0 0 0 1.5rem;
+            opacity: 0.5;
+        
+        }
+
+        .line-right-red {
+            left: 162px;
+        }
+
+        .kitTitle {
+            font-size: 1.5rem;
+            margin: 0;
+            font-weight: 500;
+        }
+
+        .doce {
+            font-size: 0.8rem;
+            margin: 0;
+            opacity: 0.5;
+        }
+
+        .pSomos {
+            font-size: 13px;
+        }
+
+        .keluoRed {
+            font-size: 13px;
+        }
+
+        .top-bottom {
+            left: 23.5rem;
+            bottom: 3rem;
+        }
+
+        .line-toplogo {
+            left: 175px;
+        }
+    
+        .line-down-beige {
+            width: 25rem;
+            right: 25px;
+        }
+
+        .line-up-beige {
+            left: 175px;
+        }
+
+        .containerX {
+            width: 250px;
+            left: 4rem;
+        }
+
+        .nexti {
+            left: 250px;
+        }
+
+        .triangle-down {
+            margin-left: 11rem;
+        }
+
+        .selloTransparent {
+            margin-left: 23rem;
+        }
+
+        .imgFooter {
+            margin-left: 7rem;
+        }
+
+        .footer {
+            height: 50rem;
+
+        }
+        
+        .footerPrivacidad {
+            left: 45px;
+
+        }
+
+        .footer22 {
+            left: 70px;
+
+        }
+
+
+    .footerLove {
+        left: 50px;
+    }
+
+           
+    .line-little-left {
+        bottom: 3205px;
+        right: 177px;
+        width: 24px;
+    }
+    
+    .line-little-right {
+        bottom: 3205px;
+        left: 177px;
+        width: 24px;
+    }
+   
+
 }
+
