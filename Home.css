@@ -533,10 +533,12 @@ body {
     right: 180px;
     width: 60rem; 
     letter-spacing: 0.5px;
-    transform:rotate(90deg);
+    transform:rotate(-90deg);
     bottom: 1920px;
     opacity: 0.5;
  }
+
+
 
 .newsletter {
     height: 20rem;
@@ -1971,7 +1973,80 @@ section .thumbnail:hover {
     background-color: #fff;
 }
 
+ .services-desktop {
+        display: none;
+    }
+    
+    .kit-digital-paragraph2Desktop {
+        display: none;
+    }
+    
+    .kit-digital-paragraphDesktop {
+        display: none;
+    }
+    
+    .kit-digital-paragraph-whiteDesktop {
+        display: none;
+    }
+    
+    .loDicenEllosDesktop {
+        display: none;
+    }
+    
+    .flexFooter {
+        display: none;
+    }
+    
+    .footerLeftHDesktop {
+        display: none;
+    }
+    
+    .footerRightHDesktop {
+        display: none;
+    }
+    
+    .footerLeftVDesktop {
+        display: none;
+    }
+    
+    .footerRightVDesktop {
+        display: none;
+    }
+
+    .keluoOpacity {
+        display: none;
+    }
+
+    .teamOpacity {
+        display: none;
+    }
+
+    .footerMobile {
+        height: 15rem;
+    }
+
+    .flexFooterEnd {
+        display: none;
+    }
+
+    .VerticalDown1Desktop {
+        display: none;
+    }
+    
+    .VerticalDown2Desktop {
+        display: none;
+    }
+
+    .container4team {
+        display: none;
+    }
+
 @media only screen and (min-width: 320px) and (max-width: 374px) {
+    
+    .services-desktop {
+        display: none;
+     }
+
     .kit-image {
         right: 3rem;
         height: 9rem;
@@ -2102,10 +2177,88 @@ section .thumbnail:hover {
     .kit-digital-paragraph2 {
         top: 120px;
     }
+
+    .services-desktop {
+        display: none;
+    }
+    
+    .kit-digital-paragraph2Desktop {
+        display: none;
+    }
+    
+    .kit-digital-paragraphDesktop {
+        display: none;
+    }
+    
+    .kit-digital-paragraph-whiteDesktop {
+        display: none;
+    }
+    
+    .loDicenEllosDesktop {
+        display: none;
+    }
+    
+    .flexFooter {
+        display: none;
+    }
+    
+    .footerLeftHDesktop {
+        display: none;
+    }
+    
+    .footerRightHDesktop {
+        display: none;
+    }
+    
+    .footerLeftVDesktop {
+        display: none;
+    }
+    
+    .footerRightVDesktop {
+        display: none;
+    }
+
+    .keluoOpacity {
+        display: none;
+    }
+
+    .teamOpacity {
+        display: none;
+    }
+
+    .footerMobile {
+        height: 15rem;
+    }
+
+    .flexFooterEnd {
+        display: none;
+    }
+
+    .VerticalDown1Desktop {
+        display: none;
+    }
+    
+    .VerticalDown2Desktop {
+        display: none;
+    }
+    
+    .container4team {
+        display: none;
+    }
+
+    .services-p2 {
+        bottom: 162rem;
+        right: 173px;
+    }
     
 }
 
 @media only screen and (min-width: 375px) and (max-width: 413px) {
+
+    .services-desktop {
+        display: none;
+     }
+
     .link-header {
         left: 5rem;
     }
@@ -2201,7 +2354,7 @@ section .thumbnail:hover {
         }
 
         .services-p2 {
-            bottom: 2250px;
+            bottom: 2920px;
             right: 130px;;
         }
 
@@ -2408,10 +2561,80 @@ section .thumbnail:hover {
                 margin-top: -1.5rem;
             }
             
+            .services-desktop {
+                display: none;
+            }
+            
+            .kit-digital-paragraph2Desktop {
+                display: none;
+            }
+            
+            .kit-digital-paragraphDesktop {
+                display: none;
+            }
+            
+            .kit-digital-paragraph-whiteDesktop {
+                display: none;
+            }
+            
+            .loDicenEllosDesktop {
+                display: none;
+            }
+            
+            .flexFooter {
+                display: none;
+            }
+            
+            .footerLeftHDesktop {
+                display: none;
+            }
+            
+            .footerRightHDesktop {
+                display: none;
+            }
+            
+            .footerLeftVDesktop {
+                display: none;
+            }
+            
+            .footerRightVDesktop {
+                display: none;
+            }
+
+            .keluoOpacity {
+                display: none;
+            }
+        
+            .teamOpacity {
+                display: none;
+            }
+
+            .footerMobile {
+                height: 15rem;
+            }
+
+            .flexFooterEnd {
+                display: none;
+            }
+
+            .VerticalDown1Desktop {
+                display: none;
+            }
+            
+            .VerticalDown2Desktop {
+                display: none;
+            }
      
+            .container4team {
+                display: none;
+            }
     }
 
 @media only screen and (min-width: 414px) and (max-width:480px) {
+
+    .services-desktop {
+        display: none;
+     }
 
     .link-header {
         left: 5rem;
@@ -3064,11 +3287,85 @@ section .thumbnail:hover {
             width: 13px;
         }
         
+        .services-desktop {
+            display: none;
+        }
+        
+        .kit-digital-paragraph2Desktop {
+            display: none;
+        }
+        
+        .kit-digital-paragraphDesktop {
+            display: none;
+        }
+        
+        .kit-digital-paragraph-whiteDesktop {
+            display: none;
+        }
+        
+        .loDicenEllosDesktop {
+            display: none;
+        }
+        
+        .flexFooter {
+            display: none;
+        }
+        
+        .footerLeftHDesktop {
+            display: none;
+        }
+        
+        .footerRightHDesktop {
+            display: none;
+        }
+        
+        .footerLeftVDesktop {
+            display: none;
+        }
+        
+        .footerRightVDesktop {
+            display: none;
+        }
+        
+        .keluoOpacity {
+            display: none;
+        }
+    
+        .teamOpacity {
+            display: none;
+        }
       
+        .footerMobile {
+            height: 15rem;
+        }
 
+        .flexFooterEnd {
+            display: none;
+        }
+
+        .VerticalDown1Desktop {
+            display: none;
+        }
+        
+        .VerticalDown2Desktop {
+            display: none;
+        }
+
+        .container4team {
+            display: none;
+        }
+
+        .services-p2 {
+            bottom: 197rem;
+            right: 90px;
+        }
 }
 
 @media screen and (min-height: 812px) {
+
+    .services-desktop {
+        display: none;
+     }
 
     .keluo_main {
         left: 7rem;
@@ -3184,12 +3481,84 @@ section .thumbnail:hover {
             width: 13px;
         }
         
-      
+        .services-desktop {
+            display: none;
+        }
         
+        .kit-digital-paragraph2Desktop {
+            display: none;
+        }
+        
+        .kit-digital-paragraphDesktop {
+            display: none;
+        }
+        
+        .kit-digital-paragraph-whiteDesktop {
+            display: none;
+        }
+        
+        .loDicenEllosDesktop {
+            display: none;
+        }
+        
+        .flexFooter {
+            display: none;
+        }
+        
+        .footerLeftHDesktop {
+            display: none;
+        }
+        
+        .footerRightHDesktop {
+            display: none;
+        }
+        
+        .footerLeftVDesktop {
+            display: none;
+        }
+        
+        .footerRightVDesktop {
+            display: none;
+        }
+        
+        .keluoOpacity {
+            display: none;
+        }
+    
+        .teamOpacity {
+            display: none;
+        }
 
+        .footerMobile {
+            height: 15rem;
+        }
+
+        .flexFooterEnd {
+            display: none;
+        }
+
+        .VerticalDown1Desktop {
+            display: none;
+        }
+        
+        .VerticalDown2Desktop {
+            display: none;
+        }
+        .container4team {
+            display: none;
+        }
+
+        .services-p2 {
+            bottom: 197rem;
+            right: 130px;
+        }
 }
 
 @media screen and (min-width: 390px) and (min-height: 844px) {
+
+    .services-desktop {
+        display: none;
+     }
 
     .line-right {
         top: 50px;
@@ -3300,9 +3669,85 @@ section .thumbnail:hover {
         width: 20px;
     }
 
+    .services-desktop {
+        display: none;
+    }
+    
+    .kit-digital-paragraph2Desktop {
+        display: none;
+    }
+    
+    .kit-digital-paragraphDesktop {
+        display: none;
+    }
+    
+    .kit-digital-paragraph-whiteDesktop {
+        display: none;
+    }
+    
+    .loDicenEllosDesktop {
+        display: none;
+    }
+    
+    .flexFooter {
+        display: none;
+    }
+    
+    .footerLeftHDesktop {
+        display: none;
+    }
+    
+    .footerRightHDesktop {
+        display: none;
+    }
+    
+    .footerLeftVDesktop {
+        display: none;
+    }
+    
+    .footerRightVDesktop {
+        display: none;
+    }
+    
+    .keluoOpacity {
+        display: none;
+    }
+
+    .teamOpacity {
+        display: none;
+    }
+
+    .footerMobile {
+        height: 15rem;
+    }
+
+    .flexFooterEnd {
+        display: none;
+    }
+
+    .VerticalDown1Desktop {
+        display: none;
+    }
+    
+    .VerticalDown2Desktop {
+        display: none;
+    }
+    .container4team {
+        display: none;
+    }
+
+    .services-p2 {
+        bottom: 205rem;
+        right: 125px;
+    }
 }
 
 @media screen and ( height: 896px) {
+
+    .services-desktop {
+        display: none;
+     }
+
     .keluo_main {
         left: 8rem;
         top: 25rem;
@@ -3453,10 +3898,85 @@ section .thumbnail:hover {
             width: 30px;
         }
        
+        .services-desktop {
+            display: none;
+        }
+        
+        .kit-digital-paragraph2Desktop {
+            display: none;
+        }
+        
+        .kit-digital-paragraphDesktop {
+            display: none;
+        }
+        
+        .kit-digital-paragraph-whiteDesktop {
+            display: none;
+        }
+        
+        .loDicenEllosDesktop {
+            display: none;
+        }
+        
+        .flexFooter {
+            display: none;
+        }
+        
+        .footerLeftHDesktop {
+            display: none;
+        }
+        
+        .footerRightHDesktop {
+            display: none;
+        }
+        
+        .footerLeftVDesktop {
+            display: none;
+        }
+        
+        .footerRightVDesktop {
+            display: none;
+        }
+        
+        .keluoOpacity {
+            display: none;
+        }
+    
+        .teamOpacity {
+            display: none;
+        }
 
+        .footerMobile {
+            height: 15rem;
+        }
+
+        .flexFooterEnd {
+            display: none;
+        }
+
+        .VerticalDown1Desktop {
+            display: none;
+        }
+        
+        .VerticalDown2Desktop {
+            display: none;
+        }
+
+        .container4team {
+            display: none;
+        }
+
+        .services-p2 {
+            bottom: 213rem;
+            right: 100px;
+        }
 }
 
 @media screen and (width: 412px) and (height: 914px) {
+
+    .services-desktop {
+        display: none;
+     }
 
     .menu-wrap {
         left: 21rem;
@@ -3676,9 +4196,81 @@ section .thumbnail:hover {
     .footerLove {
         left: 50px;
     }
+
+    .services-desktop {
+        display: none;
+    }
+    
+    .kit-digital-paragraph2Desktop {
+        display: none;
+    }
+    
+    .kit-digital-paragraphDesktop {
+        display: none;
+    }
+    
+    .kit-digital-paragraph-whiteDesktop {
+        display: none;
+    }
+    
+    .loDicenEllosDesktop {
+        display: none;
+    }
+    
+    .flexFooter {
+        display: none;
+    }
+    
+    .footerLeftHDesktop {
+        display: none;
+    }
+    
+    .footerRightHDesktop {
+        display: none;
+    }
+    
+    .footerLeftVDesktop {
+        display: none;
+    }
+    
+    .footerRightVDesktop {
+        display: none;
+    }
+    
+    .keluoOpacity {
+        display: none;
+    }
+
+    .teamOpacity {
+        display: none;
+    }
+
+    .footerMobile {
+        height: 15rem;
+    }
+
+    .flexFooterEnd {
+        display: none;
+    }
+
+    .VerticalDown1Desktop {
+        display: none;
+    }
+    
+    .VerticalDown2Desktop {
+        display: none;
+    }
+    .container4team {
+        display: none;
+    }
 }
 
 @media screen and (width: 412px) and (height: 915px) {
+
+    .services-desktop {
+        display: none;
+     }
+
     .menu-wrap {
         left: 21rem;
     }
@@ -3897,10 +4489,83 @@ section .thumbnail:hover {
     .footerLove {
         left: 50px;
     }
+
+    .services-desktop {
+        display: none;
+    }
+    
+    .kit-digital-paragraph2Desktop {
+        display: none;
+    }
+    
+    .kit-digital-paragraphDesktop {
+        display: none;
+    }
+    
+    .kit-digital-paragraph-whiteDesktop {
+        display: none;
+    }
+    
+    .loDicenEllosDesktop {
+        display: none;
+    }
+    
+    .flexFooter {
+        display: none;
+    }
+    
+    .footerLeftHDesktop {
+        display: none;
+    }
+    
+    .footerRightHDesktop {
+        display: none;
+    }
+    
+    .footerLeftVDesktop {
+        display: none;
+    }
+    
+    .footerRightVDesktop {
+        display: none;
+    }
+    
+    .keluoOpacity {
+        display: none;
+    }
+
+    .teamOpacity {
+        display: none;
+    }
+
+    .footerMobile {
+        height: 15rem;
+    }
+
+    .flexFooterEnd {
+        display: none;
+    }
+
+    .VerticalDown1Desktop {
+        display: none;
+    }
+    
+    .VerticalDown2Desktop {
+        display: none;
+    }
+
+    .container4team {
+        display: none;
+    }
 }
 
 
 @media only screen and (width: 360px) and (height: 740px) {
+
+    .services-desktop {
+        display: none;
+     }
+
     .link-header {
         left: 4.5rem;
     }
@@ -4225,10 +4890,80 @@ section .thumbnail:hover {
     .footerLove {
         left: 40px;
     }
-     
+
+    .services-desktop {
+        display: none;
+    }
+    
+    .kit-digital-paragraph2Desktop {
+        display: none;
+    }
+    
+    .kit-digital-paragraphDesktop {
+        display: none;
+    }
+    
+    .kit-digital-paragraph-whiteDesktop {
+        display: none;
+    }
+    
+    .loDicenEllosDesktop {
+        display: none;
+    }
+    
+    .flexFooter {
+        display: none;
+    }
+    
+    .footerLeftHDesktop {
+        display: none;
+    }
+    
+    .footerRightHDesktop {
+        display: none;
+    }
+    
+    .footerLeftVDesktop {
+        display: none;
+    }
+    
+    .footerRightVDesktop {
+        display: none;
+    }
+
+    .keluoOpacity {
+        display: none;
+    }
+
+    .teamOpacity {
+        display: none;
+    }
+    
+    .footerMobile {
+        height: 15rem;
+    }
+
+    .flexFooterEnd {
+        display: none;
+    }
+
+    .VerticalDown1Desktop {
+        display: none;
+    }
+    
+    .VerticalDown2Desktop {
+        display: none;
+    }
+    .container4team {
+        display: none;
+    }
     }
 
 @media only screen and (width: 428px) and (height: 926px) {
+
+    .services-desktop {
+        display: none;
+     }
 
     .menu-wrap {
         left: 21rem;
@@ -4462,6 +5197,3097 @@ section .thumbnail:hover {
         width: 24px;
     }
    
+    .services-desktop {
+        display: none;
+    }
+    
+    .kit-digital-paragraph2Desktop {
+        display: none;
+    }
+    
+    .kit-digital-paragraphDesktop {
+        display: none;
+    }
+    
+    .kit-digital-paragraph-whiteDesktop {
+        display: none;
+    }
+    
+    .loDicenEllosDesktop {
+        display: none;
+    }
+    
+    .flexFooter {
+        display: none;
+    }
+    
+    .footerLeftHDesktop {
+        display: none;
+    }
+    
+    .footerRightHDesktop {
+        display: none;
+    }
+    
+    .footerLeftVDesktop {
+        display: none;
+    }
+    
+    .footerRightVDesktop {
+        display: none;
+    }
+    
+    .keluoOpacity {
+        display: none;
+    }
+
+    .teamOpacity {
+        display: none;
+    }
+
+    .footerMobile {
+        height: 15rem;
+    }
+
+    .flexFooterEnd {
+        display: none;
+    }
+
+    .VerticalDown1Desktop {
+        display: none;
+    }
+    
+    .VerticalDown2Desktop {
+        display: none;
+    }
+
+    .container4team {
+        display: none;
+    }
+
+    .services-p2 {
+        bottom: 215rem;
+        right: 90px;
+    }
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1439px) {
+
+    .menu-wrap {
+        display: none;
+    }
+
+    .link-header {
+        font-size: 15px;
+        left: 30rem;
+    }
+
+    .centerTiktok {
+        font-size: 15px;
+        left: 30rem;
+    }
+
+    .image_main {
+        bottom: 1500px;
+    }
+
+    .line-right {
+        height: 800px;
+        right: 600px;
+        top: 125px;
+    }
+
+    .line-right2 {
+        height: 800px;
+        left: 600px;
+        bottom: 680px;
+    }
+
+    .keluo_main {
+        width: 20rem;
+        height: 5rem;
+        left: 32rem;
+        top: 35rem;
+    }
+
+    .p-downKeluo {
+        font-size: 23px;
+        width: 22rem;
+        left: 32rem;
+        top: 38rem;
+    }
+
+    .line-up-keluoHome {
+        width: 300px;
+        right: 0rem;
+        left: 2.1rem;
+        top: 585px;
+    }
+
+    .line-right-keluoHome {
+        height: 75px;
+        top: 575px;
+        left: 185px;
+    }
+
+    .fixed {
+        flex-direction: column;
+        top: 43rem;
+        margin-left: 5rem;
+    }
+
+    .welcome {
+        bottom: 480px;
+    }
+
+    .button-fixed {
+        margin: 0.1rem;
+    }
+
+    .section-somos {
+        bottom: 2300px;
+    }
+
+    .line-right-section {
+        left: 600px;
+        height: 1500px;
+        bottom: 200px;
+    }
+
+    .line-left-section {
+        height: 1000px;
+        right: 600px;
+        bottom: 1220px;
+    }
+
+    .line-little-left {
+        width: 40px;
+        right: 36.2rem;
+        bottom: 2940px;
+    }
+
+    .line-little-right {
+        width: 40px;
+        left: 36.2rem;
+        bottom: 2940px;
+    }
+
+    .keluoSello {
+        width: 7rem;
+        height: 7rem;
+        margin-left: 3rem
+    }
+
+    .quienesSomos {
+        margin-left: 3rem;
+        font-size: 50px;
+    }
+
+    .pSomos {
+        width: 30rem;
+        margin-left: 4rem;
+        margin-top: -10px;
+        font-size: 20px;
+    }
+
+    .keluoRed {
+        font-size: 20px;
+        margin-left: 3rem;
+    }
+
+    .miscelanea-top {
+        width: 30rem;
+        margin-left: 5rem;
+    }
+
+    .rectangulo {
+        height: 250px;
+        position: relative;
+        left: 36.5rem;
+        bottom: 50rem;
+        width: 40rem;
+    }
+
+    .unoimg {
+        width: 10rem;
+        height: 30rem;
+        bottom: 26rem;
+        left: -1rem;
+    }
+
+    .dosimg {
+        width: 10rem;
+        height: 30rem;
+        bottom: 30rem;
+        left: 1rem;
+    }
+
+    .treimg {
+        width: 10rem;
+        height: 30rem;
+        bottom: 34rem;
+        right: 1rem;
+    }
+
+    .fourSquare {
+        margin: 5rem;
+        bottom: 2450px;
+    }
+
+    .square {
+        height: 200px;
+    }
+
+    .selloService {
+        width: 7rem;
+        height: 7rem;
+        margin-left: 31.5rem;
+        margin-top: 10.5rem;
+    }
+
+    .icon1 {
+        width: 70px;
+        height: 60px;
+    }
+
+    .icon2 {
+        width: 60px;
+        height: 70px;
+    }
+
+    .icon3 {
+        width: 70px;
+        height: 70px;
+    }
+
+    .icon4 {
+        width: 80px;
+        height: 60px;
+    }
+
+    .pSquare {
+        font-size: 20px;
+    }
+    
+    .pSquare1 {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    
+    .pSquare1t {
+        font-size: 25px;
+        margin-bottom: -10px;
+        margin-top: 5px;
+    }
+    
+    .pSquare2 {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    
+    .pSquare3 {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    
+    .pSquare4 {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .btn-square {
+        width: 120px;
+        height: 25px;
+        font-size: 15px;
+        padding: 1px;
+    }
+
+    .services-p {
+        display: none;
+    }
+
+    .services-p2 {
+        font-size: 15px;
+        width: 37rem;
+        opacity: 0.2;
+        bottom: 2800px;
+        left: 58rem;
+    }
+
+    .services-desktop {
+        position: relative;
+        font-size: 17px;
+        width: 73rem;
+        bottom: 2550px;
+        left: 80px;
+        opacity: 0.2;
+     }
+
+     .newsletter {
+        margin-top: -4800px;
+        height: 22rem;
+     }
+
+     .selloTransparent {
+        width: 15rem;
+        height: 15rem;
+        margin-left: 70rem;
+        margin-top: 2rem;
+     }
+
+     .boxNews {
+        width: 40rem;
+        bottom: 20rem;
+        left: 15rem;
+     }
+
+     .triangulo{
+        border-top: 50px solid #CC2A4D; 
+        border-left: 50px solid transparent;
+        top: -75px;
+        right: -120px;
+     }
+
+     .trianguloGreen {
+        top: -125px;
+        left: 280px;
+        border-bottom: 50px solid #494F4A; 
+        border-right: 50px solid transparent;
+     }
+
+     .line-newsletter {
+        width: 38rem;
+     }
+
+     .lineRight-newsletter {
+        left: 345px;
+     }
+
+     .lineRight-newsletter-little-right {
+        left: 332px;
+        width: 25px;
+     }
+
+     .line-newsletter-littleDown {
+        height: 40px;
+        right: 265px;
+        bottom: 258px;
+        transform: rotate(180deg);
+     }
+
+     .sumate-newsletter {
+        font-size: 22px;
+     }
+
+     .input-container {
+        width: 300px;
+        left: 20px;
+     }
+
+     .search-input {
+        left: 22%;
+     }
+
+     .button-sale {
+        margin: 1rem 0 0 7rem;
+        width: 100px;
+        font-size: 15px;
+        padding: 1px;
+     }
+
+     .bgGreen {
+        height: 30rem;
+     }
+
+     .kit-image {
+        width: 25rem;
+        height: 30rem;
+        right: 10rem;
+        z-index: 3;
+     }
+
+     .outlined {
+        outline-offset: 10px;
+        margin-left: 3rem;
+        padding: 150px;
+        padding-right: 100px;
+        z-index: 3;
+     }
+
+     .portfolio {
+        margin-top: 20rem;
+     }
+
+     .kit-digital-Vertical {
+        height: 220px;
+        margin: -240px 0 0 50px;
+     }
+
+     .kit-digital-Horizontal {
+        width: 800px;
+        margin: 0 0 0 -220px;
+     }
+
+     .kit-digital-Horizontal-little {
+        width: 30px;
+        top: -18px;
+        right: -20px;
+     }
+
+     .kit-digital-Vertical-little {
+        height: 30px;
+        left: 382px;
+        bottom: 200px;
+     }
+
+     .bgBeigeV {
+        width: 25rem;
+        height: 20px;
+        margin: 0 0 0 -200px;
+     }
+
+     .bgBeigeH {
+        height: 12rem;
+        width: 120px;
+        margin: 0 0 0 0;
+    }
+
+    .bgBeigeH2 {
+        height: 20px;
+        width: 25rem;
+        margin: 0;
+        margin: 0 0 0 -200px;
+    }
+
+    .kitTitle {
+        font-size: 4rem;
+        margin-left: -70px;
+    }
+
+    .doce {
+        font-size: 1.5rem;
+        font-weight: 100;
+        opacity: 0.6;
+        margin-left: -70px;
+    }
+
+    .bgBeige {
+        height: 10rem;
+    }
+
+    .portfolio-text {
+        font-size: 4rem;
+        margin: 7rem 0 0 47rem;   
+     }
+
+     .line-above-red {
+        width: 75rem;
+        margin-left: 0;
+        margin-top: 25rem;
+    }
+
+    .line-right-red {
+        left: 625px;
+    }   
+
+    .cuadrado {
+        width: 50px;
+        height: 50px;
+        margin-left: 1150px;
+    }
+
+    .line-PortfolioH {
+        width: 32rem;
+        margin-right: -120px;
+        bottom: 160px;
+    }
+
+    .line-PortfolioV-little {
+        margin-right: 24.5rem;
+        height: 30px;
+        bottom: 200px;
+    }
+
+    .line-PortfolioV {
+        height: 150px;
+        left: 600px;
+        bottom: 150px;
+    }
+
+    .line-PortfolioH-little {
+        left: 585px;
+        bottom: 140px;
+        width: 30px;
+
+    }
+
+    .portfolio-h3 {
+        font-size: 1.5rem;
+        margin: 0 0 0 50rem;
+    }
+
+    .background-logicol {
+        height: 40rem;
+        width: 35rem;
+        bottom: 30rem;
+        margin-left: 5rem;
+    }
+
+    .container2 {
+        width: 300px;
+        height: 600px;
+        top: -10rem;
+    }
+
+    .portfolio-logical {
+        width: 30rem;
+        height: 30rem;
+        bottom: -2rem;
+        right: -10rem;
+    }
+
+    .previ2,
+    .nexti2 {
+      top: 700px;
+      margin-left: 4rem;
+   }
+
+   .nexti2 {
+    left: 200px;
+   }
+
+   .quadrate2 {
+    position: relative;
+    top: 680px;
+    left: 80px;
+   }
+
+   .bgGreen2 {
+    width: 25rem;
+    position: relative;
+    left: 16rem;
+   }
+
+   .bgGreen4 {
+    width: 25rem;
+    right: -16rem;
+    height: 35rem;
+   }
+
+   .slide-container {
+    left: 35rem;
+    bottom: 320px;
+   }
+
+   .keluo-team-title {
+    font-size: 4rem;
+    margin-left: 10rem;
+    position: relative;
+    top: 200px;
+   }
+
+   .keluoTeamParagraph {
+    font-size: 20px;
+    margin-left: 10rem;
+    width: 30rem;
+    position: relative;
+    top: 200px;
+}
+
+.team-line {
+    margin-top: 230px;
+    margin-left: 100px;
+    width: 30rem;
+}
+
+.team-line-vertical {
+    height: 200px;
+    width: 0;
+    position: relative;
+    right: 348px;
+    bottom: 210px;
+}
+
+.team-line-little {
+    width: 30px;
+    position: relative;
+    right: 333px;
+    bottom: -30px;
+}
+
+.logo-arrow {
+    width: 7rem;
+    height: 7rem;
+    margin: 22rem 0 0 12rem;
+}
+
+.oteam {
+    display: none;
+}
+
+.oteam2 {
+    display: none;
+}
+
+.container {
+    display: none;
+}
+
+.container4team {
+    height: 500px;
+    width: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    position: relative;
+    bottom: 15rem;
+    left: 23rem;
+}
+
+.squareTeam {
+    height: 250px;
+    width: 250px;
+    background-color: #DBDCD2;
+    border: 1px solid black
+}
+
+.aboutMeSquare {
+    height: 250px;
+    width: 250px;
+    background-color: #DBDCD2;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutme {
+    margin: 2rem;
+}
+
+.miscelaneaSquare {
+    width: 13rem;
+}
+
+.teamFlex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.photoTeam {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: 2rem;
+    border: 2px solid black;
+}
+
+.name4Square {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.job4Square {
+    margin: 0;
+}
+
+#safaeShowHide {
+    display: none;
+}
+
+#carlaShowHide {
+    display: none;
+}
+
+#albertoShowHide {
+    display: none;
+}
+
+#johnShowHide {
+    display: none;
+}
+
+.keluoOpacity {
+    position: relative;
+    top: 4rem;
+    right: 45rem;
+    font-weight: 900;
+    font-size: 7rem;
+    opacity: 0.1;
+}
+
+.teamOpacity {
+    position: relative;
+    top: 4rem;
+    right: 40rem;
+    font-weight: 900;
+    font-size: 7rem;
+    opacity: 0.1;
+}
+
+.beigeLogicol {
+    height: 10rem;
+    width: 80%;
+    bottom: 20rem;
+    left: 10rem;
+}
+
+.getKeluo {
+    height: 10rem;
+    position: relative;
+    top: 30rem;
+}
+
+.top-bottom {
+    width: 3rem;
+    height: 3rem;
+    left: 76rem;
+    top: -5rem;
+}
+
+.containerX {
+    width: 830px;
+    height: 250px;
+    left: 15rem;
+    top: -13rem;
+}
+
+.comillas {
+    width: 100px;
+    height: 100px;
+    bottom: 150px;
+    right: -140px;
+}
+
+.line-down-beige {
+    z-index: -1;
+    width: 1240px;
+    bottom: 31rem;
+}
+
+.line-toplogo {
+    left: 600px;
+    top: 125px;
+    height: 500px;
+    z-index: -1;
+}
+
+.mySlides {
+    display: none;
+}
+
+.loDicenEllosp {
+    display: none;
+}
+
+.noLoDecimosNosotros {
+    display: none;
+}
+
+.belmonte {
+    display: none;
+}
+
+.resenia {
+    display: none;
+}
+
+.previ {
+    display: none;
+}
+
+.nexti {
+    display: none;
+}
+
+.loDicenEllosDesktop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.loDicenDesktop {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.noLoDesktop {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.empresasDesktop {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.belmonteDesktop {
+    width: 300px;
+    height: 50px;
+    object-fit: contain;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.reseniaDesktop {
+    width: 400px;
+}
+
+.isabellaDesktop {
+    width: 100px;
+    height: 75px;
+    object-fit: contain;
+    margin-left: 5rem;
+}
+
+.reseniaIsabellaDesktop {
+    width: 400px;
+    margin: 0;
+}
+
+.kit-digital-paragraph {
+ display: none;
+}
+
+.kit-digital-paragraph-white {
+    display: none;
+}
+
+.kit-digital-paragraph2{
+    display: none;
+}
+
+.kit-digital-paragraphDesktop {
+    font-size: 0.96rem;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    right: 160px;
+    bottom: 170px;
+    width: 40rem;
+    opacity: 0.5;
+    width: 60rem;
+   }
+   
+   .kit-digital-paragraph-whiteDesktop {
+    position: relative;
+    bottom: 207px;
+    left: 630px;
+    color: white;
+   }
+
+   .kit-digital-paragraph2Desktop{
+    font-size: 0.96rem;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    right: 160px;
+    top: 450px;
+    width: 40rem;
+    opacity: 0.5;
+    width: 60rem;
+}
+
+.allKitDigital {
+    position: relative;
+    bottom: 7rem;
+    z-index: -1;
+}
+
+
+
+.imgFooter {
+    position: relative;
+    top: 450px;
+    left: 300px;
+    width: 30rem;
+    height: 15rem;
+    margin-left: 5.7rem;
+}
+
+
+.titleFinal {
+    font-size: 3rem;
+}
+
+.triangle-down {
+    position: relative;
+    top: 30rem;
+    left: 27rem;
+    margin-left: 8.7rem;
+    width: 0;
+    height: 0;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    border-top: 80px solid #494F4A;
+    border-bottom: none;
+    z-index: 3;
+}
+
+.btn-Final {
+    width: 130px;
+    margin-bottom: 80px;
+    margin-top: -20px;
+    height: 50px;
+    padding: 10px;
+    font-size: 12px;
+    -webkit-box-shadow: 7px 7px 0px #666666;
+    -moz-box-shadow: 7px 7px 0px #666666;
+    box-shadow: 7px 7px 0px #666666;
+}
+
+.footerMobile {
+    display: none;
+}
+
+.footerLeftHDesktop {
+    position: relative;
+    right: 425px;
+    top: 320px;
+    width: 300px;
+}
+.footerRightHDesktop {
+    position: relative;
+    left: 425px;
+    top: 310px;
+    width: 300px;
+}
+.footerLeftVDesktop {
+    position: relative;
+    right: 575px;
+    top: 300px;
+    height: 300px;
+    width: 0;
+}
+.footerRightVDesktop {
+    position: relative;
+    left: 575px;
+    bottom: 10px;
+    height: 300px;
+    width: 0;
+}
+
+.flexFooter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 1200px;
+    right: 5rem;
+}
+
+.titleFooter {
+    margin: 2.5rem;
+}
+
+.footerTitle {
+    font-size: 1.5rem;
+}
+
+.VerticalDown1Desktop {
+    width: 72rem;
+    position: relative;
+    bottom: 18rem;
+}
+
+.VerticalDown2Desktop {
+    width: 72rem;
+    position: relative;
+    bottom: 16.3rem;
+}
+
+.flexFooterEnd {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 300px;
+}
+
+.footerTerminosDesktop{
+    margin: 0 3rem;
+}
+
+.footerPrivacidadDesktop{
+    margin: 0 3rem;
+}
+
+.footerCookiesDesktop{
+    margin: 0 3rem;
+}
+
+.footerLegalDesktop{
+    margin: 0 3rem;
+}
+
+.footerKeluoTech2022Desktop{
+    margin: 0 3rem;
+}
+
+
+
+
+
 
 }
 
+@media only screen and (width: 950px) {
+
+    body {
+        max-height: 10%;
+    }
+    
+    .somosSections{
+        bottom: 2120px;
+    }
+
+    .trefotos {
+        bottom: 2120px;
+    }
+
+    .line-little-left {
+        bottom: 2890px;
+    }
+    
+    .line-little-right {
+        bottom: 2890px;
+    }
+
+    .line-right {
+        height: 1000px;
+        right: 600px;
+        top: 100px;
+    }
+
+    .line-right2 {
+        height: 1000px;
+        left: 600px;
+        bottom: 900px;
+    }
+
+    .image_main {
+        bottom: 1900px;
+    }
+
+    .section-somos {
+        bottom: 2700px;
+    }
+
+    .newsletter {
+        margin-top: -5200px;
+        height: 22rem;
+     }
+
+}
+
+@media only screen and (min-width: 1440px) and (height: 900px) {
+
+    .somosSections{
+        bottom: 2420px;
+        left: 4rem;
+
+    }
+
+    .trefotos {
+        bottom: 2420px;
+        left: 4rem;
+    }
+    
+    .menu-wrap {
+        display: none;
+    }
+
+    .link-header {
+        font-size: 15px;
+        left: 35rem;
+    }
+
+    .centerTiktok {
+        font-size: 15px;
+        left: 35rem;
+    }
+
+    .image_main {
+        bottom: 1700px;
+    }
+
+    .line-right {
+        height: 900px;
+        right: 600px;
+        top: 150px;
+    }
+
+    .line-right2 {
+        height: 900px;
+        left: 600px;
+        bottom: 770px;
+    }
+
+    .keluo_main {
+        width: 20rem;
+        height: 5rem;
+        left: 37rem;
+        top: 35rem;
+    }
+
+    .p-downKeluo {
+        font-size: 23px;
+        width: 22rem;
+        left: 37rem;
+        top: 38rem;
+    }
+
+    .line-up-keluoHome {
+        width: 300px;
+        right: 0rem;
+        left: 2.1rem;
+        top: 585px;
+    }
+
+    .line-right-keluoHome {
+        height: 75px;
+        top: 575px;
+        left: 185px;
+    }
+
+    .fixed {
+        flex-direction: column;
+        top: 50rem;
+        margin-left: 8rem;
+    }
+
+    .welcome {
+        bottom: 480px;
+    }
+
+    .button-fixed {
+        margin: 0.1rem;
+    }
+
+    .section-somos {
+        bottom: 2300px;
+    }
+
+    .line-right-section {
+        left: 600px;
+        height: 1500px;
+        bottom: 200px;
+    }
+
+    .line-left-section {
+        height: 1200px;
+        right: 600px;
+        bottom: 1410px;
+    }
+
+    .line-little-left {
+        width: 40px;
+        right: 36.2rem;
+        bottom: 3240px;
+    }
+
+    .line-little-right {
+        width: 40px;
+        left: 36.2rem;
+        bottom: 3250px;
+    }
+
+    .keluoSello {
+        width: 7rem;
+        height: 7rem;
+        margin-left: 3rem
+    }
+
+    .quienesSomos {
+        margin-left: 3rem;
+        font-size: 50px;
+    }
+
+    .pSomos {
+        width: 30rem;
+        margin-left: 4rem;
+        margin-top: -10px;
+        font-size: 20px;
+    }
+
+    .keluoRed {
+        font-size: 20px;
+        margin-left: 3rem;
+    }
+
+    .miscelanea-top {
+        width: 30rem;
+        margin-left: 5rem;
+    }
+
+    .rectangulo {
+        height: 250px;
+        position: relative;
+        left: 36.5rem;
+        bottom: 50rem;
+        width: 40rem;
+    }
+
+    .unoimg {
+        width: 10rem;
+        height: 30rem;
+        bottom: 26rem;
+        left: -1rem;
+    }
+
+    .dosimg {
+        width: 10rem;
+        height: 30rem;
+        bottom: 30rem;
+        left: 1rem;
+    }
+
+    .treimg {
+        width: 10rem;
+        height: 30rem;
+        bottom: 34rem;
+        right: 1rem;
+    }
+
+    .fourSquare {
+        margin: 10rem;
+        bottom: 2800px;
+    }
+
+    .square {
+        height: 200px;
+    }
+
+    .selloService {
+        width: 7rem;
+        height: 7rem;
+        margin-left: 31.5rem;
+        margin-top: 10.5rem;
+    }
+
+    .icon1 {
+        width: 70px;
+        height: 60px;
+    }
+
+    .icon2 {
+        width: 60px;
+        height: 70px;
+    }
+
+    .icon3 {
+        width: 70px;
+        height: 70px;
+    }
+
+    .icon4 {
+        width: 80px;
+        height: 60px;
+    }
+
+    .pSquare {
+        font-size: 20px;
+    }
+    
+    .pSquare1 {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    
+    .pSquare1t {
+        font-size: 25px;
+        margin-bottom: -10px;
+        margin-top: 5px;
+    }
+    
+    .pSquare2 {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    
+    .pSquare3 {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    
+    .pSquare4 {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .btn-square {
+        width: 120px;
+        height: 25px;
+        font-size: 15px;
+        padding: 1px;
+    }
+
+    .services-p {
+        display: none;
+    }
+
+    .services-p2 {
+        font-size: 15px;
+        width: 33rem;
+        opacity: 0.2;
+        bottom: 3200px;
+        left: 65rem;
+    }
+
+    .services-desktop {
+        display: block;
+        position: relative;
+        font-size: 17px;
+        width: 73rem;
+        bottom: 2975px;
+        left: 160px;
+        opacity: 0.2;
+     }
+
+     .newsletter {
+        margin-top: -5200px;
+        height: 22rem;
+     }
+
+     .selloTransparent {
+        width: 15rem;
+        height: 15rem;
+        margin-left: 80rem;
+        margin-top: 2rem;
+     }
+
+     .boxNews {
+        width: 40rem;
+        bottom: 20rem;
+        left: 15rem;
+     }
+
+     .triangulo{
+        border-top: 50px solid #CC2A4D; 
+        border-left: 50px solid transparent;
+        top: -75px;
+        right: -120px;
+     }
+
+     .trianguloGreen {
+        top: -125px;
+        left: 280px;
+        border-bottom: 50px solid #494F4A; 
+        border-right: 50px solid transparent;
+     }
+
+     .line-newsletter {
+        width: 38rem;
+     }
+
+     .lineRight-newsletter {
+        left: 345px;
+     }
+
+     .lineRight-newsletter-little-right {
+        left: 332px;
+        width: 25px;
+     }
+
+     .line-newsletter-littleDown {
+        height: 40px;
+        right: 265px;
+        bottom: 258px;
+        transform: rotate(180deg);
+     }
+
+     .sumate-newsletter {
+        font-size: 22px;
+     }
+
+     .input-container {
+        width: 300px;
+        left: 20px;
+     }
+
+     .search-input {
+        left: 22%;
+     }
+
+     .button-sale {
+        margin: 1rem 0 0 7rem;
+        width: 100px;
+        font-size: 15px;
+        padding: 1px;
+     }
+
+     .bgGreen {
+        height: 30rem;
+     }
+
+     .kit-image {
+        width: 25rem;
+        height: 30rem;
+        right: 10rem;
+        z-index: 3;
+     }
+
+     .outlined {
+        outline-offset: 10px;
+        margin-left: 3rem;
+        padding: 150px;
+        padding-right: 100px;
+        z-index: 3;
+     }
+
+     .portfolio {
+        margin-top: 20rem;
+     }
+
+     .kit-digital-Vertical {
+        height: 220px;
+        margin: -240px 0 0 50px;
+     }
+
+     .kit-digital-Horizontal {
+        width: 800px;
+        margin: 0 0 0 -220px;
+     }
+
+     .kit-digital-Horizontal-little {
+        width: 30px;
+        top: -18px;
+        right: -20px;
+     }
+
+     .kit-digital-Vertical-little {
+        height: 30px;
+        left: 382px;
+        bottom: 200px;
+     }
+
+     .bgBeigeV {
+        width: 25rem;
+        height: 20px;
+        margin: 0 0 0 -200px;
+     }
+
+     .bgBeigeH {
+        height: 12rem;
+        width: 120px;
+        margin: 0 0 0 0;
+    }
+
+    .bgBeigeH2 {
+        height: 20px;
+        width: 25rem;
+        margin: 0;
+        margin: 0 0 0 -200px;
+    }
+
+    .kitTitle {
+        font-size: 4rem;
+        margin-left: -70px;
+    }
+
+    .doce {
+        font-size: 1.5rem;
+        font-weight: 100;
+        opacity: 0.6;
+        margin-left: -70px;
+    }
+
+    .bgBeige {
+        height: 10rem;
+    }
+
+    .portfolio-text {
+        font-size: 4rem;
+        margin: 7rem 0 0 50rem;   
+     }
+
+     .line-above-red {
+        width: 82rem;
+        margin-left: 0;
+        margin-top: 25rem;
+    }
+
+    .line-right-red {
+        left: 702px;
+    }   
+
+    .cuadrado {
+        width: 50px;
+        height: 50px;
+        margin-left: 1300px;
+    }
+
+    .line-PortfolioH {
+        width: 45rem;
+        margin-right: -190px;
+        bottom: 160px;
+    }
+
+    .line-PortfolioV-little {
+        margin-right: 33.1rem;
+        height: 30px;
+        bottom: 200px;
+    }
+
+    .line-PortfolioV {
+        height: 150px;
+        left: 600px;
+        bottom: 150px;
+    }
+
+    .line-PortfolioH-little {
+        left: 585px;
+        bottom: 140px;
+        width: 30px;
+
+    }
+
+    .portfolio-h3 {
+        font-size: 1.5rem;
+        margin: 0 0 0 50rem;
+    }
+
+    .background-logicol {
+        height: 40rem;
+        width: 35rem;
+        bottom: 30rem;
+        margin-left: 5rem;
+    }
+
+    .container2 {
+        width: 300px;
+        height: 600px;
+        top: -10rem;
+    }
+
+    .portfolio-logical {
+        width: 30rem;
+        height: 30rem;
+        bottom: -2rem;
+        right: -10rem;
+    }
+
+    .previ2,
+    .nexti2 {
+      top: 700px;
+      margin-left: 4rem;
+   }
+
+   .nexti2 {
+    left: 200px;
+   }
+
+   .quadrate2 {
+    position: relative;
+    top: 680px;
+    left: 80px;
+   }
+
+   .bgGreen2 {
+    width: 30rem;
+    position: relative;
+    left: 18rem;
+   }
+
+   .bgGreen4 {
+    width: 30rem;
+    right: -18rem;
+    height: 35rem;
+   }
+
+   .slide-container {
+    left: 35rem;
+    bottom: 320px;
+   }
+
+   .keluo-team-title {
+    font-size: 4rem;
+    margin-left: 10rem;
+    position: relative;
+    top: 200px;
+   }
+
+   .keluoTeamParagraph {
+    font-size: 20px;
+    margin-left: 10rem;
+    width: 30rem;
+    position: relative;
+    top: 200px;
+}
+
+.team-line {
+    margin-top: 230px;
+    margin-left: 100px;
+    width: 30rem;
+}
+
+.team-line-vertical {
+    height: 200px;
+    width: 0;
+    position: relative;
+    right: 405px;
+    bottom: 210px;
+}
+
+.team-line-little {
+    width: 30px;
+    position: relative;
+    right: 390px;
+    bottom: -30px;
+}
+
+.logo-arrow {
+    width: 7rem;
+    height: 7rem;
+    margin: 22rem 0 0 12rem;
+}
+
+.oteam {
+    display: none;
+}
+
+.oteam2 {
+    display: none;
+}
+
+.container {
+    display: none;
+}
+
+.container4team {
+    height: 500px;
+    width: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    position: relative;
+    bottom: 15rem;
+    left: 27.5rem;
+}
+
+.squareTeam {
+    height: 250px;
+    width: 250px;
+    background-color: #DBDCD2;
+    border: 1px solid black
+}
+
+.aboutMeSquare {
+    height: 250px;
+    width: 250px;
+    background-color: #DBDCD2;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutme {
+    margin: 2rem;
+}
+
+.miscelaneaSquare {
+    width: 13rem;
+}
+
+.teamFlex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.photoTeam {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: 2rem;
+    border: 2px solid black;
+}
+
+.name4Square {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.job4Square {
+    margin: 0;
+}
+
+#safaeShowHide {
+    display: none;
+}
+
+#carlaShowHide {
+    display: none;
+}
+
+#albertoShowHide {
+    display: none;
+}
+
+#johnShowHide {
+    display: none;
+}
+
+.keluoOpacity {
+    position: relative;
+    top: 4rem;
+    right: 45rem;
+    font-weight: 900;
+    font-size: 7rem;
+    opacity: 0.1;
+}
+
+.teamOpacity {
+    position: relative;
+    top: 4rem;
+    right: 40rem;
+    font-weight: 900;
+    font-size: 7rem;
+    opacity: 0.1;
+}
+
+.beigeLogicol {
+    height: 10rem;
+    width: 80%;
+    bottom: 20rem;
+    left: 10rem;
+}
+
+.getKeluo {
+    height: 10rem;
+    position: relative;
+    top: 30rem;
+}
+
+.top-bottom {
+    width: 3rem;
+    height: 3rem;
+    left: 85.5rem;
+    top: -5rem;
+}
+
+.containerX {
+    width: 830px;
+    height: 250px;
+    left: 15rem;
+    top: -13rem;
+}
+
+.comillas {
+    width: 100px;
+    height: 100px;
+    bottom: 150px;
+    right: -140px;
+}
+
+.line-down-beige {
+    z-index: -1;
+    width: 1380px;
+    bottom: 28rem;
+}
+
+.line-toplogo {
+    left: 675px;
+    top: 170px;
+    height: 500px;
+    z-index: -1;
+}
+
+.mySlides {
+    display: none;
+}
+
+.loDicenEllosp {
+    display: none;
+}
+
+.noLoDecimosNosotros {
+    display: none;
+}
+
+.belmonte {
+    display: none;
+}
+
+.resenia {
+    display: none;
+}
+
+.previ {
+    display: none;
+}
+
+.nexti {
+    display: none;
+}
+
+.loDicenEllosDesktop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.loDicenDesktop {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.noLoDesktop {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.empresasDesktop {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.belmonteDesktop {
+    width: 300px;
+    height: 50px;
+    object-fit: contain;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.reseniaDesktop {
+    width: 400px;
+}
+
+.isabellaDesktop {
+    width: 100px;
+    height: 75px;
+    object-fit: contain;
+    margin-left: 5rem;
+}
+
+.reseniaIsabellaDesktop {
+    width: 400px;
+    margin: 0;
+}
+
+.kit-digital-paragraph {
+ display: none;
+}
+
+.kit-digital-paragraph-white {
+    display: none;
+}
+
+.kit-digital-paragraph2{
+    display: none;
+}
+
+.kit-digital-paragraphDesktop {
+    font-size: 0.96rem;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    right: 120px;
+    bottom: 170px;
+    width: 40rem;
+    opacity: 0.5;
+    width: 60rem;
+   }
+   
+   .kit-digital-paragraph-whiteDesktop {
+    position: relative;
+    bottom: 208px;
+    left: 810px;
+    color: white;
+   }
+
+   .kit-digital-paragraph2Desktop{
+    font-size: 0.96rem;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    right: 130px;
+    top: 450px;
+    width: 40rem;
+    opacity: 0.5;
+    width: 60rem;
+}
+
+.allKitDigital {
+    position: relative;
+    bottom: 7rem;
+    z-index: -1;
+}
+
+
+
+.imgFooter {
+    position: relative;
+    top: 450px;
+    left: 400px;
+    width: 30rem;
+    height: 15rem;
+    margin-left: 5.7rem;
+}
+
+
+.titleFinal {
+    font-size: 3rem;
+}
+
+.triangle-down {
+    position: relative;
+    top: 30rem;
+    left: 32rem;
+    margin-left: 8.7rem;
+    width: 0;
+    height: 0;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    border-top: 80px solid #494F4A;
+    border-bottom: none;
+    z-index: 3;
+}
+
+.btn-Final {
+    width: 130px;
+    margin-bottom: 80px;
+    margin-top: -20px;
+    height: 50px;
+    padding: 10px;
+    font-size: 12px;
+    -webkit-box-shadow: 7px 7px 0px #666666;
+    -moz-box-shadow: 7px 7px 0px #666666;
+    box-shadow: 7px 7px 0px #666666;
+}
+
+.footerMobile {
+    display: none;
+}
+
+.footerLeftHDesktop {
+    position: relative;
+    right: 425px;
+    top: 320px;
+    width: 300px;
+}
+.footerRightHDesktop {
+    position: relative;
+    left: 425px;
+    top: 310px;
+    width: 300px;
+}
+.footerLeftVDesktop {
+    position: relative;
+    right: 575px;
+    top: 300px;
+    height: 300px;
+    width: 0;
+}
+.footerRightVDesktop {
+    position: relative;
+    left: 575px;
+    bottom: 10px;
+    height: 300px;
+    width: 0;
+}
+
+.flexFooter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 1200px;
+    right: 5rem;
+}
+
+.titleFooter {
+    margin: 2.5rem;
+}
+
+.footerTitle {
+    font-size: 1.5rem;
+}
+
+.VerticalDown1Desktop {
+    width: 72rem;
+    position: relative;
+    bottom: 18rem;
+}
+
+.VerticalDown2Desktop {
+    width: 72rem;
+    position: relative;
+    bottom: 16.3rem;
+}
+
+.flexFooterEnd {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 300px;
+}
+
+.footerTerminosDesktop{
+    margin: 0 3rem;
+}
+
+.footerPrivacidadDesktop{
+    margin: 0 3rem;
+}
+
+.footerCookiesDesktop{
+    margin: 0 3rem;
+}
+
+.footerLegalDesktop{
+    margin: 0 3rem;
+}
+
+.footerKeluoTech2022Desktop{
+    margin: 0 3rem;
+}
+
+.services-desktop {
+    display: none;
+}
+
+.kit-digital-paragraph2Desktop {
+    display: none;
+}
+
+.kit-digital-paragraphDesktop {
+    display: none;
+}
+
+.kit-digital-paragraph-whiteDesktop {
+    display: none;
+}
+
+.loDicenEllosDesktop {
+    display: none;
+}
+
+.flexFooter {
+    display: none;
+}
+
+.footerLeftHDesktop {
+    display: none;
+}
+
+.footerRightHDesktop {
+    display: none;
+}
+
+.footerLeftVDesktop {
+    display: none;
+}
+
+.footerRightVDesktop {
+    display: none;
+}
+
+
+
+
+}
+
+@media only screen and (min-width: 1920px) and (min-height: 1080px) {
+
+    html {
+        bottom: -10000rem;
+    }
+
+    .somosSections{
+        bottom: 2520px;
+        left: 5rem;
+
+    }
+
+    .trefotos {
+        bottom: 2420px;
+        left: 4rem;
+    }
+    
+    .menu-wrap {
+        display: none;
+    }
+
+    .link-header {
+        font-size: 15px;
+        left: 50rem;
+    }
+
+    .centerTiktok {
+        font-size: 15px;
+        left: 50rem;
+    }
+
+    .image_main {
+        bottom: 2100px;
+    }
+
+    .line-right {
+        height: 1100px;
+        right: 900px;
+        top: 150px;
+    }
+
+    .line-right2 {
+        height: 1100px;
+        left: 900px;
+        bottom: 970px;
+    }
+
+    .keluo_main {
+        width: 20rem;
+        height: 5rem;
+        left: 52rem;
+        top: 35rem;
+    }
+
+    .p-downKeluo {
+        font-size: 23px;
+        width: 22rem;
+        left: 52rem;
+        top: 38rem;
+    }
+
+    .line-up-keluoHome {
+        width: 300px;
+        right: 0rem;
+        left: 2.1rem;
+        top: 585px;
+    }
+
+    .line-right-keluoHome {
+        height: 75px;
+        top: 575px;
+        left: 185px;
+    }
+
+    .fixed {
+        flex-direction: column;
+        top: 60rem;
+        margin-left: 8rem;
+    }
+
+    .welcome {
+        bottom: 480px;
+    }
+
+    .button-fixed {
+        margin: 0.1rem;
+    }
+
+    .section-somos {
+        bottom: 2700px;
+    }
+
+    .line-right-section {
+        left: 900px;
+        height: 1500px;
+        bottom: 370px;
+    }
+
+    .line-left-section {
+        height: 1200px;
+        right: 900px;
+        bottom: 1570px;
+    }
+
+    .line-little-left {
+        width: 100px;
+        right: 53rem;
+        bottom: 3650px;
+    }
+
+    .line-little-right {
+        width: 100px;
+        left: 53rem;
+        bottom: 3670px;
+    }
+
+    .keluoSello {
+        width: 7rem;
+        height: 7rem;
+        margin-left: 3rem
+    }
+
+    .quienesSomos {
+        margin-left: 3rem;
+        font-size: 50px;
+    }
+
+    .pSomos {
+        width: 30rem;
+        margin-left: 4rem;
+        margin-top: -10px;
+        font-size: 20px;
+    }
+
+    .keluoRed {
+        font-size: 20px;
+        margin-left: 3rem;
+    }
+
+    .miscelanea-top {
+        width: 30rem;
+        margin-left: 5rem;
+    }
+
+    .rectangulo {
+        height: 250px;
+        position: relative;
+        left: 60rem;
+        bottom: 55rem;
+        width: 50rem;
+    }
+
+    .unoimg {
+        width: 13rem;
+        height: 30rem;
+        bottom: 26rem;
+        left: 12rem;
+    }
+
+    .dosimg {
+        width: 13rem;
+        height: 30rem;
+        bottom: 30rem;
+        left: 15rem;
+    }
+
+    .treimg {
+        width: 13rem;
+        height: 30rem;
+        bottom: 34rem;
+        left: 18rem;
+    }
+
+    .fourSquare {
+        margin: 10rem;
+        bottom: 2900px;
+    }
+
+    .square {
+        height: 300px;
+    }
+
+    .selloService {
+        width: 7rem;
+        height: 7rem;
+        margin-left: 46.5rem;
+        margin-top: 17rem;
+    }
+
+    .icon1 {
+        width: 70px;
+        height: 60px;
+    }
+
+    .icon2 {
+        width: 60px;
+        height: 70px;
+    }
+
+    .icon3 {
+        width: 70px;
+        height: 70px;
+    }
+
+    .icon4 {
+        width: 80px;
+        height: 60px;
+    }
+
+    .pSquare {
+        font-size: 20px;
+    }
+    
+    .pSquare1 {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    
+    .pSquare1t {
+        font-size: 25px;
+        margin-bottom: -10px;
+        margin-top: 5px;
+    }
+    
+    .pSquare2 {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    
+    .pSquare3 {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    
+    .pSquare4 {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .btn-square {
+        width: 120px;
+        height: 25px;
+        font-size: 15px;
+        padding: 1px;
+    }
+
+    .services-p {
+        display: none;
+    }
+
+    .services-p2 {
+        font-size: 15px;
+        width: 33rem;
+        opacity: 0.2;
+        bottom: 3400px;
+        left: 95rem;
+    }
+
+    .services-desktop {
+        display: block;
+        position: relative;
+        font-size: 17px;
+        width: 73rem;
+        bottom: 3070px;
+        left: 370px;
+        opacity: 0.2;
+     }
+
+     .newsletter {
+        margin-top: -5700px;
+        height: 22rem;
+     }
+
+     .selloTransparent {
+        width: 15rem;
+        height: 15rem;
+        margin-left: 110rem;
+        margin-top: 2rem;
+     }
+
+     .boxNews {
+        width: 40rem;
+        bottom: 20rem;
+        left: 15rem;
+     }
+
+     .triangulo{
+        border-top: 50px solid #CC2A4D; 
+        border-left: 50px solid transparent;
+        top: -75px;
+        right: -120px;
+     }
+
+     .trianguloGreen {
+        top: -125px;
+        left: 280px;
+        border-bottom: 50px solid #494F4A; 
+        border-right: 50px solid transparent;
+     }
+
+     .line-newsletter {
+        width: 38rem;
+     }
+
+     .lineRight-newsletter {
+        left: 345px;
+     }
+
+     .lineRight-newsletter-little-right {
+        left: 332px;
+        width: 25px;
+     }
+
+     .line-newsletter-littleDown {
+        height: 40px;
+        right: 265px;
+        bottom: 258px;
+        transform: rotate(180deg);
+     }
+
+     .sumate-newsletter {
+        font-size: 22px;
+     }
+
+     .input-container {
+        width: 300px;
+        left: 20px;
+     }
+
+     .search-input {
+        left: 22%;
+     }
+
+     .button-sale {
+        margin: 1rem 0 0 7rem;
+        width: 100px;
+        font-size: 15px;
+        padding: 1px;
+     }
+
+     .bgGreen {
+        height: 30rem;
+     }
+
+     .kit-image {
+        width: 25rem;
+        height: 30rem;
+        right: 10rem;
+        z-index: 3;
+     }
+
+     .outlined {
+        outline-offset: 10px;
+        margin-left: 3rem;
+        padding: 150px;
+        padding-right: 100px;
+        z-index: 3;
+     }
+
+     .portfolio {
+        margin-top: 20rem;
+     }
+
+     .kit-digital-Vertical {
+        height: 220px;
+        margin: -240px 0 0 50px;
+     }
+
+     .kit-digital-Horizontal {
+        width: 800px;
+        margin: 0 0 0 -220px;
+     }
+
+     .kit-digital-Horizontal-little {
+        width: 30px;
+        top: -18px;
+        right: -20px;
+     }
+
+     .kit-digital-Vertical-little {
+        height: 30px;
+        left: 382px;
+        bottom: 200px;
+     }
+
+     .bgBeigeV {
+        width: 25rem;
+        height: 20px;
+        margin: 0 0 0 -200px;
+     }
+
+     .bgBeigeH {
+        height: 12rem;
+        width: 120px;
+        margin: 0 0 0 0;
+    }
+
+    .bgBeigeH2 {
+        height: 20px;
+        width: 25rem;
+        margin: 0;
+        margin: 0 0 0 -200px;
+    }
+
+    .kitTitle {
+        font-size: 4rem;
+        margin-left: -70px;
+    }
+
+    .doce {
+        font-size: 1.5rem;
+        font-weight: 100;
+        opacity: 0.6;
+        margin-left: -70px;
+    }
+
+    .bgBeige {
+        height: 10rem;
+    }
+
+    .portfolio-text {
+        font-size: 4rem;
+        margin: 7rem 0 0 80rem;   
+     }
+
+     .line-above-red {
+        width: 116.5rem;
+        margin-left: 0;
+        margin-top: 25rem;
+    }
+
+    .line-right-red {
+        left: 1002px;
+    }   
+
+    .cuadrado {
+        width: 50px;
+        height: 50px;
+        margin-left: 1815px;
+    }
+
+    .line-PortfolioH {
+        width: 45rem;
+        margin-right: -190px;
+        bottom: 160px;
+    }
+
+    .line-PortfolioV-little {
+        margin-right: 33.1rem;
+        height: 30px;
+        bottom: 200px;
+    }
+
+    .line-PortfolioV {
+        height: 150px;
+        left: 900px;
+        bottom: 150px;
+    }
+
+    .line-PortfolioH-little {
+        left: 885px;
+        bottom: 140px;
+        width: 30px;
+
+    }
+
+    .portfolio-h3 {
+        font-size: 1.5rem;
+        margin: 0 0 0 80rem;
+    }
+
+    .background-logicol {
+        height: 40rem;
+        width: 35rem;
+        bottom: 30rem;
+        margin-left: 20rem;
+    }
+
+    .container2 {
+        width: 300px;
+        height: 600px;
+        top: -10rem;
+    }
+
+    .portfolio-logical {
+        width: 30rem;
+        height: 30rem;
+        bottom: -2rem;
+        right: -10rem;
+    }
+
+    .previ2,
+    .nexti2 {
+      top: 700px;
+      margin-left: 4rem;
+   }
+
+   .nexti2 {
+    left: 200px;
+   }
+
+   .quadrate2 {
+    position: relative;
+    top: 680px;
+    left: 80px;
+   }
+
+   .bgGreen2 {
+    width: 50rem;
+    position: relative;
+    left: 24rem;
+   }
+
+   .bgGreen4 {
+    width: 50rem;
+    right: -24rem;
+    height: 35rem;
+   }
+
+   .slide-container {
+    left: 35rem;
+    bottom: 320px;
+   }
+
+   .keluo-team-title {
+    font-size: 4rem;
+    margin-left: 20rem;
+    position: relative;
+    top: 200px;
+   }
+
+   .keluoTeamParagraph {
+    font-size: 20px;
+    margin-left: 20rem;
+    width: 30rem;
+    position: relative;
+    top: 200px;
+}
+
+.team-line {
+    margin-top: 230px;
+    margin-left: 270px;
+    width: 30rem;
+}
+
+.team-line-vertical {
+    height: 200px;
+    width: 0;
+    position: relative;
+    right: 405px;
+    bottom: 210px;
+}
+
+.team-line-little {
+    width: 30px;
+    position: relative;
+    right: 390px;
+    bottom: -30px;
+}
+
+.logo-arrow {
+    width: 7rem;
+    height: 7rem;
+    margin: 22rem 0 0 12rem;
+}
+
+.oteam {
+    display: none;
+}
+
+.oteam2 {
+    display: none;
+}
+
+.container {
+    display: none;
+}
+
+.container4team {
+    height: 500px;
+    width: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    position: relative;
+    bottom: 15rem;
+    left: 20rem;
+}
+
+.squareTeam {
+    height: 250px;
+    width: 250px;
+    background-color: #DBDCD2;
+    border: 1px solid black
+}
+
+.aboutMeSquare {
+    height: 250px;
+    width: 250px;
+    background-color: #DBDCD2;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutme {
+    margin: 2rem;
+}
+
+.miscelaneaSquare {
+    width: 13rem;
+}
+
+.teamFlex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.photoTeam {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: 2rem;
+    border: 2px solid black;
+}
+
+.name4Square {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.job4Square {
+    margin: 0;
+}
+
+#safaeShowHide {
+    display: none;
+}
+
+#carlaShowHide {
+    display: none;
+}
+
+#albertoShowHide {
+    display: none;
+}
+
+#johnShowHide {
+    display: none;
+}
+
+.keluoOpacity {
+    position: relative;
+    top: 4rem;
+    right: 45rem;
+    font-weight: 900;
+    font-size: 7rem;
+    opacity: 0.1;
+}
+
+.teamOpacity {
+    position: relative;
+    top: 4rem;
+    right: 40rem;
+    font-weight: 900;
+    font-size: 7rem;
+    opacity: 0.1;
+}
+
+.beigeLogicol {
+    height: 10rem;
+    width: 80%;
+    bottom: 20rem;
+    left: 10rem;
+}
+
+.getKeluo {
+    height: 10rem;
+    position: relative;
+    top: 30rem;
+}
+
+.top-bottom {
+    width: 3rem;
+    height: 3rem;
+    left: 111.5rem;
+    top: -5rem;
+}
+
+.containerX {
+    width: 830px;
+    height: 250px;
+    left: 30rem;
+    top: -13rem;
+}
+
+.comillas {
+    width: 100px;
+    height: 100px;
+    bottom: 150px;
+    right: -370px;
+}
+
+.line-down-beige {
+    z-index: -1;
+    width: 1850px;
+    bottom: 28rem;
+    right: 4.5rem;
+}
+
+.line-toplogo {
+    left: 850px;
+    top: 170px;
+    height: 500px;
+    z-index: -1;
+}
+
+.mySlides {
+    display: none;
+}
+
+.loDicenEllosp {
+    display: none;
+}
+
+.noLoDecimosNosotros {
+    display: none;
+}
+
+.belmonte {
+    display: none;
+}
+
+.resenia {
+    display: none;
+}
+
+.previ {
+    display: none;
+}
+
+.nexti {
+    display: none;
+}
+
+.loDicenEllosDesktop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.loDicenDesktop {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.noLoDesktop {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.empresasDesktop {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.belmonteDesktop {
+    width: 300px;
+    height: 50px;
+    object-fit: contain;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.reseniaDesktop {
+    width: 400px;
+}
+
+.isabellaDesktop {
+    width: 100px;
+    height: 75px;
+    object-fit: contain;
+    margin-left: 5rem;
+}
+
+.reseniaIsabellaDesktop {
+    width: 400px;
+    margin: 0;
+}
+
+.kit-digital-paragraph {
+ display: none;
+}
+
+.kit-digital-paragraph-white {
+    display: none;
+}
+
+.kit-digital-paragraph2{
+    display: none;
+}
+
+.kit-digital-paragraphDesktop {
+    font-size: 0.96rem;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    right: 120px;
+    bottom: 170px;
+    width: 40rem;
+    opacity: 0.5;
+    width: 60rem;
+   }
+   
+   .kit-digital-paragraph-whiteDesktop {
+    position: relative;
+    bottom: 208px;
+    left: 810px;
+    color: white;
+   }
+
+   .kit-digital-paragraph2Desktop{
+    font-size: 0.96rem;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    right: 130px;
+    top: 450px;
+    width: 40rem;
+    opacity: 0.5;
+    width: 60rem;
+}
+
+.allKitDigital {
+    position: relative;
+    bottom: 7rem;
+    z-index: -1;
+}
+
+
+
+.imgFooter {
+    position: relative;
+    top: 450px;
+    left: 400px;
+    width: 30rem;
+    height: 15rem;
+    margin-left: 20rem;
+}
+
+
+.titleFinal {
+    font-size: 3rem;
+}
+
+.triangle-down {
+    position: relative;
+    top: 30rem;
+    left: 32rem;
+    margin-left: 24rem;
+    width: 0;
+    height: 0;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    border-top: 80px solid #494F4A;
+    border-bottom: none;
+    z-index: 3;
+}
+
+.btn-Final {
+    width: 130px;
+    margin-bottom: 80px;
+    margin-top: -20px;
+    height: 50px;
+    padding: 10px;
+    font-size: 12px;
+    -webkit-box-shadow: 7px 7px 0px #666666;
+    -moz-box-shadow: 7px 7px 0px #666666;
+    box-shadow: 7px 7px 0px #666666;
+}
+
+.footerMobile {
+    display: none;
+}
+
+.footerLeftHDesktop {
+    position: relative;
+    right: 425px;
+    top: 320px;
+    width: 300px;
+    display: block;
+}
+.footerRightHDesktop {
+    position: relative;
+    left: 425px;
+    top: 310px;
+    width: 300px;
+    display: block;
+}
+.footerLeftVDesktop {
+    position: relative;
+    right: 575px;
+    top: 300px;
+    height: 300px;
+    width: 0;
+    display: block;
+}
+.footerRightVDesktop {
+    position: relative;
+    left: 575px;
+    bottom: 10px;
+    height: 300px;
+    width: 0;
+    display: block;
+}
+
+.flexFooter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 1200px;
+    right: 2rem;
+}
+
+.titleFooter {
+    margin: 2.5rem;
+}
+
+.footerTitle {
+    font-size: 1.5rem;
+}
+
+.VerticalDown1Desktop {
+    width: 72rem;
+    position: relative;
+    bottom: 18rem;
+    display: block;
+}
+
+.VerticalDown2Desktop {
+    width: 72rem;
+    position: relative;
+    bottom: 16.3rem;
+    display: block;
+}
+
+.flexFooterEnd {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 300px;
+}
+
+.footerTerminosDesktop{
+    margin: 0 3rem;
+}
+
+.footerPrivacidadDesktop{
+    margin: 0 3rem;
+}
+
+.footerCookiesDesktop{
+    margin: 0 3rem;
+}
+
+.footerLegalDesktop{
+    margin: 0 3rem;
+}
+
+.footerKeluoTech2022Desktop{
+    margin: 0 3rem;
+}
+
+}
